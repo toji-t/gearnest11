@@ -89,7 +89,7 @@ export const products = [
   rating: 4.8,
   reviewCount: 18000,
   tagline: "Powerful M4 performance in a thin, lightweight laptop built for everyday work",
-  image: "",
+image: "/products/macbook-air.jpg",
   badges: ["Editor's Pick"],
   affiliateUrl: "https://www.amazon.com/s?k=MacBook+Air+M4+15-inch&tag=gearnest-20",
   featured: true,
