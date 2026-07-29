@@ -14,7 +14,12 @@ export default function ProductCard({ product }) {
   return (
     <article className="card-hover group bg-white rounded-2xl border border-slate-100 shadow-[var(--shadow-soft)] overflow-hidden flex flex-col">
       <Link to={`/products/${product.category}/${product.slug}`} className="block p-4 pb-0">
-        <ProductVisual category={product.category} icon={category?.icon} className="aspect-[4/3] w-full" />
+        <ProductVisual 
+  category={product.category} 
+  icon={category?.icon}
+  image={product.image}
+  className="aspect-[4/3] w-full" 
+/>
       </Link>
       <div className="p-5 flex flex-col gap-3 flex-1">
         <div className="flex items-start justify-between gap-2">
