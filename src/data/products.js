@@ -3,20 +3,20 @@
 // placeholder — wire up real Amazon Associates tracking IDs before launch.
 
 export const products = [
-  {
-  slug: "apple-airpods-pro-2",
-  name: "Apple AirPods Pro (2nd Generation)",
+ {
+  slug: "airpods-4",
+  name: "Apple AirPods 4",
   brand: "Apple",
   category: "headphones",
-  price: 249,
+  price: 129,
   originalPrice: null,
   rating: 4.7,
-  reviewCount: 50000,
-  tagline: "Premium wireless earbuds with active noise cancellation and immersive sound",
-  image: "",
-  badges: ["Editor's Pick"],
-  affiliateUrl: "https://www.amazon.com/s?k=Apple+AirPods+Pro+2&tag=gearnest-20",
-  featured: true,
+  reviewCount: 10000,
+  tagline: "All-new AirPods with rich sound, personalized spatial audio, and a comfortable open-ear design",
+  image: "/products/airpods-4.jpg",
+  badges: ["Popular"],
+  affiliateUrl: "https://www.amazon.com/dp/B0DGHMNQ5Z?tag=gearnest-20",
+  featured: false,
 },
   {
   slug: "sony-wh1000xm5",
