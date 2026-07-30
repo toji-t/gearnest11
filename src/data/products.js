@@ -245,7 +245,21 @@ image: "/products/macbook-air.jpg",
   featured: true,
 },
 ];
-
+{
+  slug: "logitech-lightspeed-wireless-mouse",
+  name: "Logitech LIGHTSPEED Wireless Gaming Mouse",
+  brand: "Logitech",
+  category: "mice",
+  price: 108.99,
+  originalPrice: 149.99,
+  rating: 4.7,
+  reviewCount: 12000,
+  tagline: "Customizable LIGHTSPEED wireless gaming mouse with high-performance tracking",
+  image: "/products/logitech-lightspeed.jpg",
+  badges: ["Best Value"],
+  affiliateUrl: "https://www.amazon.com/dp/B0CJ4TPLRM?tag=gearnest-20",
+  featured: true,
+},
 export const getProduct = (slug) => products.find((p) => p.slug === slug);
 export const getProductsByCategory = (slug) =>
   products.filter((p) => p.category === slug);
