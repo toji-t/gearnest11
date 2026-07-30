@@ -92,7 +92,7 @@ export const products = [
 image: "/products/macbook-air.jpg",
   badges: ["Editor's Pick"],
   affiliateUrl: "https://www.amazon.com/dp/B0GX78S7QQ?tag=gearnest-20",
-  featured: true,
+  featured: true, 
 },
   {
   slug: "lg-ultragear-27-oled",
