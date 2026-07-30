@@ -55,7 +55,11 @@ export default function ProductDetail() {
       </section>
 
       <section className="max-w-7xl mx-auto px-5 sm:px-8 pb-16 grid lg:grid-cols-2 gap-12">
-        <ProductVisual category={product.category} icon={category?.icon} className="aspect-square w-full" />
+        <img
+  src={product.image}
+  alt={product.name}
+  className="aspect-square w-full object-contain rounded-2xl"
+/>
 
         <div>
           <p className="text-sm font-semibold uppercase tracking-wide text-electric mb-2">{product.brand}</p>
