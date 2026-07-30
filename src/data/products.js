@@ -81,7 +81,7 @@ export const products = [
 },
 {
   slug: "macbook-air-m4",
-  name: Apple MacBook Air 15-inch with M5 chip: 32GB Memory, 512GB SSD - Midnight
+name: "Apple MacBook Air 15-inch with M5 chip: 32GB Memory, 512GB SSD - Midnight",
   brand: "Apple",
   category: "laptops",
   price: 1199,
