@@ -85,7 +85,7 @@ name: "Apple MacBook Air 15-inch with M5 chip: 32GB Memory, 512GB SSD - Midnight
   brand: "Apple",
   category: "laptops",
   price: 1199,
-  originalPrice: null,
+  originalPrice: null, 
   rating: 4.8,
   reviewCount: 18000,
   tagline: "Powerful M4 performance in a thin, lightweight laptop built for everyday work",
