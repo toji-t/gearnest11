@@ -91,7 +91,7 @@ export const products = [
   tagline: "Powerful M4 performance in a thin, lightweight laptop built for everyday work",
 image: "/products/macbook-air.jpg",
   badges: ["Editor's Pick"],
-  affiliateUrl: "https://www.amazon.com/dp/B0GX78S7QQ?tag=gearnest-20",
+  affiliateUrl: "https://www.amazon.com/dp/B0GX78S7QQ?tag=gearnest-20",  
   featured: true, 
 },
   {
