@@ -8,7 +8,7 @@ export const products = [
   name: "Apple AirPods 4",
   brand: "Apple",
   category: "headphones",
-  price: 89.64  
+  price: 89.64,
   originalPrice: null,
   rating: 4.7,
   reviewCount: 10000,
