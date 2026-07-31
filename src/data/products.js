@@ -515,8 +515,3 @@ export const getFeaturedProducts = () => products.filter((p) => p.featured);
 
 
    
-},
-export const getProduct = (slug) => products.find((p) => p.slug === slug);
-export const getProductsByCategory = (slug) =>
-  products.filter((p) => p.category === slug);
-export const getFeaturedProducts = () => products.filter((p) => p.featured);
