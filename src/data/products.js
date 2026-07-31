@@ -502,7 +502,7 @@ image: "/products/macbook-air.jpg",
     image: "/products/logitech-lightspeed.jpg",
     badges: ["Best Value"],
     affiliateUrl: "https://www.amazon.com/dp/B0CJ4TPLRM?tag=gearnest-20",
-    featured: true,
+    featured: true, 
   },
 ];
 
