@@ -2,7 +2,7 @@
 // synced with the Amazon Product Advertising API. `affiliateUrl` is a
 // placeholder — wire up real Amazon Associates tracking IDs before launch.
 
-export const products = [
+export const products = [ 
  {
   slug: "airpods-4",
   name: "Apple AirPods 4",
