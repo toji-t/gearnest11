@@ -489,49 +489,31 @@ image: "/products/macbook-air.jpg",
   affiliateUrl: "https://www.amazon.com/s?k=DJI+Osmo+Pocket+3+Creator+Combo&tag=gearnest-20",
   featured: true,
 },
- {
-  slug: "dji-osmo-pocket-3",
-  name: "DJI Osmo Pocket 3 Creator Combo",
-  brand: "DJI",
-  category: "accessories",
-  price: 669,
-  originalPrice: null,
-  rating: 4.8,
-  reviewCount: 12000,
-  tagline: "Pocket-sized 4K creator camera with gimbal stabilization for videos and vlogging",
-  image: "",
-  badges: ["Editor's Pick"],
-  affiliateUrl: "https://www.amazon.com/s?k=DJI+Osmo+Pocket+3+Creator+Combo&tag=gearnest-20",
-  featured: true,
-},
-
-{
-  slug: "logitech-lightspeed-wireless-mouse",
-  name: "Logitech LIGHTSPEED Wireless Gaming Mouse",
-  brand: "Logitech",
-  category: "mice",
-  price: 108.99,
-  originalPrice: 149.99,
-  rating: 4.7,
-  reviewCount: 12000,
-  tagline: "Customizable LIGHTSPEED wireless gaming mouse with high-performance tracking",
-  image: "/products/logitech-lightspeed.jpg",
-  badges: ["Best Value"],
-  affiliateUrl: "https://www.amazon.com/dp/B0CJ4TPLRM?tag=gearnest-20",
-  featured: true,
-},
-
+  {
+    slug: "logitech-lightspeed-wireless-mouse",
+    name: "Logitech LIGHTSPEED Wireless Gaming Mouse",
+    brand: "Logitech",
+    category: "mice",
+    price: 108.99,
+    originalPrice: 149.99,
+    rating: 4.7,
+    reviewCount: 12000,
+    tagline: "Customizable LIGHTSPEED wireless gaming mouse with high-performance tracking",
+    image: "/products/logitech-lightspeed.jpg",
+    badges: ["Best Value"],
+    affiliateUrl: "https://www.amazon.com/dp/B0CJ4TPLRM?tag=gearnest-20",
+    featured: true,
+  },
 ];
-];
-{
-  
-},
+
 export const getProduct = (slug) => products.find((p) => p.slug === slug);
+
 export const getProductsByCategory = (slug) =>
   products.filter((p) => p.category === slug);
+
 export const getFeaturedProducts = () => products.filter((p) => p.featured);
-];
-{
+
+
    
 },
 export const getProduct = (slug) => products.find((p) => p.slug === slug);
