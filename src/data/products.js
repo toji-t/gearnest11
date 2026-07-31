@@ -39,23 +39,22 @@ export const products = [
     featured: true,
   },
 
-  {
-    slug: "logitech-mx-master-3s",
-    name: "Logitech MX Master 3S",
-    brand: "Logitech",
-    category: "mice",
-    price: 99,
-    originalPrice: null,
-    rating: 4.7,
-    reviewCount: 20000,
-    tagline:
-      "Premium wireless mouse with precision tracking and productivity features",
-    image: "",
-    badges: ["Best Value"],
-    affiliateUrl:
-      "https://www.amazon.com/s?k=Logitech+MX+Master+3S&tag=gearnest-20",
-    featured: true,
-  },
+ {
+slug: "shokz-opendots-air",
+name: "Shokz OpenDots Air",
+brand: "Shokz",
+category: "headphones",
+price: 199,
+originalPrice: null,
+rating: 4.7,
+reviewCount: 12000,
+tagline: "Stylish clip-on open-ear headphones with a secure fit, rich sound, and up to 36 hours of battery life",
+image: "/products/shokz-opendots-air.jpg",
+badges: ["Trending"],
+affiliateUrl: "https://www.amazon.com/dp/B0DYCJSZLS?tag=gearnest-20",
+featured: true,
+},
+
 
   {
     slug: "logitech-g915-tkl",
