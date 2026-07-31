@@ -57,22 +57,21 @@ featured: true,
 
 
   {
-    slug: "logitech-g915-tkl",
-    name: "Logitech G915 TKL Lightspeed",
-    brand: "Logitech",
-    category: "keyboards",
-    price: 229,
-    originalPrice: null,
-    rating: 4.7,
-    reviewCount: 12000,
-    tagline:
-      "Premium low-profile wireless gaming keyboard with LIGHTSPEED performance",
-    image: "",
-    badges: ["Best Performance"],
-    affiliateUrl:
-      "https://www.amazon.com/s?k=Logitech+G915+TKL+Lightspeed&tag=gearnest-20",
-    featured: true,
-  },
+slug: "mchose-mix-87",
+name: "MCHOSE MIX 87 Mechanical Gaming Keyboard",
+brand: "MCHOSE",
+category: "keyboards",
+price: 99.99,
+originalPrice: null,
+rating: 4.7,
+reviewCount: 5000,
+tagline: "Compact 87-key mechanical gaming keyboard with adjustable performance and a modern wireless design",
+image: "/products/mchose-mix-87.jpg",
+badges: ["Trending"],
+affiliateUrl: "https://www.amazon.com/dp/B0FQJF49FK?tag=gearnest-20",
+featured: true,
+},
+
 
   {
     slug: "macbook-air-m4",
