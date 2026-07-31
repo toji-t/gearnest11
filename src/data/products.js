@@ -125,23 +125,21 @@ featured: true,
     featured: true,
   },
 
-  {
-    slug: "asus-rog-strix-g16",
-    name: "ASUS ROG Strix G16 Gaming Laptop",
-    brand: "ASUS",
-    category: "laptops",
-    price: 1499,
-    originalPrice: null,
-    rating: 4.6,
-    reviewCount: 12000,
-    tagline:
-      "High-performance gaming laptop with powerful graphics and fast display",
-    image: "",
-    badges: ["Best Performance"],
-    affiliateUrl:
-      "https://www.amazon.com/s?k=ASUS+ROG+Strix+G16+Gaming+Laptop&tag=gearnest-20",
-    featured: true,
-  },
+{
+  slug: "asus-rog-strix-g16-g615jmr",
+  name: "ASUS ROG Strix G16 (2025) Gaming Laptop - RTX 5060, Core i7-14650HX",
+  brand: "ASUS",
+  category: "laptops",
+  price: 1393.00,
+  originalPrice: 1599.99,
+  rating: 4.5,
+  reviewCount: 210,
+  tagline: "16\" FHD+ 165Hz gaming laptop with NVIDIA GeForce RTX 5060, Intel Core i7-14650HX, 16GB DDR5, and 1TB PCIe Gen4 SSD",
+  image: "/products/asus-rog-strix-g16-g615jmr.jpg",
+  badges: ["New"],
+  affiliateUrl: "https://www.amazon.com/dp/B0DZZWMB2L?tag=gearnest-20",
+  featured: true,
+},
 
   {
     slug: "sony-alpha-a6700",
