@@ -5,7 +5,7 @@
 export const products = [
   {
     slug: "airpods-4",
-    name: "Apple AirPods 4",
+    name: "Apple AirPods 4", 
     brand: "Apple",
     category: "headphones",
     price: 89.64,
