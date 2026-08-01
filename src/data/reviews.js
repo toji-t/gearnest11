@@ -137,6 +137,35 @@ export const reviews = [
     verdict:
       "If stick drift has ever ruined a controller for you, this is the upgrade that finally fixes it.",
   },
+  {
+    slug: "pulsecore-controller-review",
+    ...
+  },
+
+  {
+    slug: "samsung-galaxy-s25-ultra-review",
+    productSlug: "samsung-galaxy-s25-ultra",
+    title: "Samsung Galaxy S25 Ultra Review: The Best Android Phone of 2026?",
+    excerpt:
+      "Samsung pushes the Galaxy S25 Ultra even further with Galaxy AI, a stunning AMOLED display, flagship performance, and one of the best smartphone cameras we've ever tested.",
+    category: "smartphones",
+    author: "GearNest Team",
+    date: "2026-08-01",
+    readTime: "12 min read",
+    rating: 4.9,
+    pros: [
+      "Outstanding 200MP camera system",
+      "Exceptional battery life",
+      "Blazing-fast Snapdragon 8 Elite performance",
+    ],
+    cons: [
+      "Premium price",
+      "Large size isn't for everyone",
+    ],
+    verdict:
+      "The Samsung Galaxy S25 Ultra is the Android flagship to beat in 2026, combining powerful AI features, industry-leading cameras, and premium hardware into one outstanding smartphone.",
+  },
+
 ];
 
 export const getReview = (slug) => reviews.find((r) => r.slug === slug);
