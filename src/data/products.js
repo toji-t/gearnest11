@@ -107,7 +107,6 @@ featured: true,
   featured: true,
 },
 
-  ```js
 {
   slug: "samsung-galaxy-s25-ultra",
   name: "Samsung Galaxy S25 Ultra",
@@ -123,7 +122,6 @@ featured: true,
   affiliateUrl: "https://www.amazon.com/dp/B0G4SWDH8P?tag=gearnest-20",
   featured: true,
 },
-```
 
 
 {
