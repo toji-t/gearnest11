@@ -240,23 +240,21 @@ featured: true,
     featured: true,
   },
 
-  {
-    slug: "dji-osmo-pocket-3",
-    name: "DJI Osmo Pocket 3 Creator Combo",
-    brand: "DJI",
-    category: "accessories",
-    price: 669,
-    originalPrice: null,
-    rating: 4.8,
-    reviewCount: 12000,
-    tagline:
-      "Pocket-sized 4K creator camera with gimbal stabilization for videos and vlogging",
-    image: "",
-    badges: ["Editor's Pick"],
-    affiliateUrl:
-      "https://www.amazon.com/s?k=DJI+Osmo+Pocket+3+Creator+Combo&tag=gearnest-20",
-    featured: true,
-  },
+ {
+  slug: "dji-osmo-pocket-3",
+  name: "DJI Osmo Pocket 3 Creator Combo",
+  brand: "DJI",
+  category: "accessories",
+  price: 567.99,
+  originalPrice: null,
+  rating: 4.8,
+  reviewCount: 12000,
+  tagline: "Pocket-sized 4K creator camera with a 1-inch CMOS sensor, 3-axis gimbal stabilization, ActiveTrack 6.0, and DJI Mic 2 for professional vlogging",
+  image: "/products/dji-osmo-pocket-3.jpg",
+  badges: ["Editor's Pick"],
+  affiliateUrl: "https://www.amazon.com/dp/B0DGX2P8KS?tag=gearnest-20",
+  featured: true,
+},
 
   {
     slug: "logitech-lightspeed-wireless-mouse",
