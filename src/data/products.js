@@ -172,23 +172,21 @@ featured: true,
   featured: true,
 },
 
-  {
-    slug: "apple-ipad-pro-m4",
-    name: "Apple iPad Pro M4",
-    brand: "Apple",
-    category: "accessories",
-    price: 999,
-    originalPrice: null,
-    rating: 4.8,
-    reviewCount: 12000,
-    tagline:
-      "Powerful M4 tablet with a stunning display for creators, work, and entertainment",
-    image: "",
-    badges: ["Best Performance"],
-    affiliateUrl:
-      "https://www.amazon.com/s?k=Apple+iPad+Pro+M4&tag=gearnest-20",
-    featured: true,
-  },
+{
+  slug: "apple-ipad-pro-m4",
+  name: "Apple iPad Pro 11-inch (M4)",
+  brand: "Apple",
+  category: "accessories",
+  price: 1545.17,
+  originalPrice: null,
+  rating: 4.8,
+  reviewCount: 18000,
+  tagline: "Ultra-thin iPad Pro powered by the M4 chip with an Ultra Retina XDR display and Apple Intelligence support",
+  image: "/products/apple-ipad-pro-m4.jpg",
+  badges: ["Editor's Pick"],
+  affiliateUrl: "https://www.amazon.com/dp/B0D3JBSPXF?tag=gearnest-20",
+  featured: true,
+},
 
   {
     slug: "asus-rog-rapture-gt-be98",
