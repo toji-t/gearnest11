@@ -107,23 +107,24 @@ featured: true,
   featured: true,
 },
 
-  {
-    slug: "samsung-galaxy-s25-ultra",
-    name: "Samsung Galaxy S25 Ultra",
-    brand: "Samsung",
-    category: "smartphones",
-    price: 1299,
-    originalPrice: null,
-    rating: 4.7,
-    reviewCount: 25000,
-    tagline:
-      "Premium flagship smartphone with advanced camera, AI features, and powerful performance",
-    image: "",
-    badges: ["Editor's Pick"],
-    affiliateUrl:
-      "https://www.amazon.com/s?k=Samsung+Galaxy+S25+Ultra&tag=gearnest-20",
-    featured: true,
-  },
+  ```js
+{
+  slug: "samsung-galaxy-s25-ultra",
+  name: "Samsung Galaxy S25 Ultra",
+  brand: "Samsung",
+  category: "smartphones",
+  price: 1049.99,
+  originalPrice: 1299.99,
+  rating: 4.8,
+  reviewCount: 25000,
+  tagline: "Premium Galaxy AI flagship with a 200MP camera, titanium design, Snapdragon 8 Elite, and built-in S Pen",
+  image: "/products/samsung-galaxy-s25-ultra.jpg",
+  badges: ["Editor's Pick"],
+  affiliateUrl: "https://www.amazon.com/dp/B0G4SWDH8P?tag=gearnest-20",
+  featured: true,
+},
+```
+
 
 {
   slug: "asus-rog-strix-g16-g615jmr",
