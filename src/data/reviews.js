@@ -139,7 +139,7 @@ export const reviews = [
   },
   {
     slug: "pulsecore-controller-review",
-    ...
+    
   },
 
   {
