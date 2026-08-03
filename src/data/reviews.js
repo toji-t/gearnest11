@@ -143,8 +143,24 @@ export const reviews = [
   title: "Samsung Galaxy S25 Ultra Review: The Best Android Phone of 2026?",
   excerpt:
     "Samsung pushes the Galaxy S25 Ultra even further with Galaxy AI, a stunning AMOLED display, flagship performance, and one of the best smartphone cameras we've ever tested.",
-  category: "smartphones",
-  author: "GearNest Team",
+  content: {
+  intro:
+    "The Samsung Galaxy S25 Ultra is Samsung's flagship smartphone for 2026. It combines Galaxy AI, a premium titanium design, a 200MP camera, and the Snapdragon 8 Elite processor to deliver one of the best Android experiences available.",
+
+  camera:
+    "The 200MP main camera captures outstanding detail in daylight while the upgraded zoom lenses deliver excellent long-range photography. Night mode also performs exceptionally well.",
+
+  performance:
+    "Powered by the Snapdragon 8 Elite chipset, the Galaxy S25 Ultra handles gaming, multitasking, AI features, and demanding apps without slowing down.",
+
+  battery:
+    "Battery life easily lasts a full day for most users, and fast charging helps you quickly get back to 100% when needed.",
+
+  whoShouldBuy:
+    "This phone is ideal for photographers, professionals, gamers, content creators, and anyone looking for the best Android flagship.",
+},
+  category: "smartphones",  
+ author: "GearNest Team",
   date: "2026-08-01",
   readTime: "12 min read",
   rating: 4.9,
