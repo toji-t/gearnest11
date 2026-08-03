@@ -197,7 +197,7 @@ export const reviews = [
       "The redesigned shape provides a more secure and comfortable fit for long listening sessions without causing ear fatigue.",
 
     whoShouldBuy:
-      "Perfect for iPhone users, students, professionals, commuters, and anyone looking for reliable everyday wireless earbuds.",
+      "Perfect for iPhone users, students, professionals, commuters, and anyone looking for reliable everyday wireless earbuds.", 
   },
 
   category: "headphones",
