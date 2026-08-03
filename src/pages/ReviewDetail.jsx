@@ -72,19 +72,39 @@ export default function ReviewDetail() {
 
   {review.content && (
     <>
-      <section>
-        <h2 className="text-2xl font-bold text-navy mb-3">📷 Camera</h2>
-        <p className="text-slate-600 leading-relaxed">
-          {review.content.camera}
-        </p>
-      </section>
+    {review.category === "smartphones" ? (
+  <>
+    <section>
+      <h2 className="text-2xl font-bold text-navy mb-3">📷 Camera</h2>
+      <p className="text-slate-600 leading-relaxed">
+        {review.content.camera}
+      </p>
+    </section>
 
-      <section>
-        <h2 className="text-2xl font-bold text-navy mb-3">⚡ Performance</h2>
-        <p className="text-slate-600 leading-relaxed">
-          {review.content.performance}
-        </p>
-      </section>
+    <section>
+      <h2 className="text-2xl font-bold text-navy mb-3">⚡ Performance</h2>
+      <p className="text-slate-600 leading-relaxed">
+        {review.content.performance}
+      </p>
+    </section>
+  </>
+) : (
+  <>
+    <section>
+      <h2 className="text-2xl font-bold text-navy mb-3">🎵 Sound Quality</h2>
+      <p className="text-slate-600 leading-relaxed">
+        {review.content.sound}
+      </p>
+    </section>
+
+    <section>
+      <h2 className="text-2xl font-bold text-navy mb-3">👌 Comfort</h2>
+      <p className="text-slate-600 leading-relaxed">
+        {review.content.comfort}
+      </p>
+    </section>
+  </>
+)}
 
       <section>
         <h2 className="text-2xl font-bold text-navy mb-3">🔋 Battery</h2>
