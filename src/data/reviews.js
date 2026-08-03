@@ -175,6 +175,50 @@ export const reviews = [
   ],
  verdict:
   "If you're looking for the best premium Android phone in 2026, the Samsung Galaxy S25 Ultra is an easy recommendation. Its outstanding camera, powerful performance, Galaxy AI features, and built-in S Pen make it one of the best flagship smartphones available.",
-},   
+},
+  {
+  slug: "apple-airpods-4-review",
+  productSlug: "airpods-4",
+  title: "Apple AirPods 4 Review: Are They Worth Buying in 2026?",
+  excerpt:
+    "Apple AirPods 4 deliver excellent sound quality, improved comfort, reliable battery life, and seamless integration with Apple devices, making them one of the best wireless earbuds for everyday use.",
+
+  content: {
+    intro:
+      "Apple AirPods 4 build on the success of previous generations with better sound, improved comfort, and smarter features. They remain one of the easiest wireless earbuds to recommend for Apple users.",
+
+    sound:
+      "The sound is balanced, clear, and detailed with impressive bass for an open-ear design. Voice calls are also noticeably clearer than previous models.",
+
+    battery:
+      "Battery life is strong enough for a full day of listening with the charging case, making them ideal for commuting, work, and travel.",
+
+    comfort:
+      "The redesigned shape provides a more secure and comfortable fit for long listening sessions without causing ear fatigue.",
+
+    whoShouldBuy:
+      "Perfect for iPhone users, students, professionals, commuters, and anyone looking for reliable everyday wireless earbuds.",
+  },
+
+  category: "headphones",
+  author: "GearNest Team",
+  date: "2026-08-02",
+  readTime: "8 min read",
+  rating: 4.8,
+
+  pros: [
+    "Excellent sound quality",
+    "Very comfortable fit",
+    "Long battery life",
+  ],
+
+  cons: [
+    "Best experience with Apple devices",
+    "No high-resolution audio support",
+  ],
+
+  verdict:
+    "Apple AirPods 4 are among the best wireless earbuds for everyday use. If you're already using an iPhone, they're an easy recommendation thanks to their sound quality, comfort, and seamless ecosystem integration.",
+},
 ];
 export const getReview = (slug) => reviews.find((r) => r.slug === slug);
