@@ -57,11 +57,11 @@ export default function ReviewDetail() {
           <RatingStars rating={review.rating} size="md" />
         </div>
 
-        <ProductVisual
-          category={review.category}
-          icon={category?.icon}
-          className="w-full aspect-[16/9] mt-10 mb-10"
-        />
+        <img
+  src={product.image}
+  alt={product.name}
+  className="w-full aspect-[16/9] object-contain rounded-2xl bg-white mt-10 mb-10"
+/>
 
         <p className="text-lg text-slate-600 leading-relaxed">{review.excerpt}</p>
 
