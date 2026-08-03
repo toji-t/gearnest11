@@ -157,8 +157,8 @@ export const reviews = [
     "Premium price",
     "Large size isn't for everyone",
   ],
-  verdict:
-    "The Samsung Galaxy S25 Ultra is the Android flagship to beat in 2026, combining powerful AI features, industry-leading cameras, and premium hardware into one outstanding smartphone.",
+ verdict:
+  "If you're looking for the best premium Android phone in 2026, the Samsung Galaxy S25 Ultra is an easy recommendation. Its outstanding camera, powerful performance, Galaxy AI features, and built-in S Pen make it one of the best flagship smartphones available.",
 },   
 ];
 export const getReview = (slug) => reviews.find((r) => r.slug === slug);
