@@ -65,7 +65,43 @@ export default function ReviewDetail() {
   className="w-full aspect-[16/9] object-contain rounded-2xl bg-white mt-10 mb-10"
 />
 
-        <p className="text-lg text-slate-600 leading-relaxed">{review.excerpt}</p>
+       <div className="space-y-8">
+  <p className="text-lg text-slate-600 leading-relaxed">
+    {review.excerpt}
+  </p>
+
+  {review.content && (
+    <>
+      <section>
+        <h2 className="text-2xl font-bold text-navy mb-3">📷 Camera</h2>
+        <p className="text-slate-600 leading-relaxed">
+          {review.content.camera}
+        </p>
+      </section>
+
+      <section>
+        <h2 className="text-2xl font-bold text-navy mb-3">⚡ Performance</h2>
+        <p className="text-slate-600 leading-relaxed">
+          {review.content.performance}
+        </p>
+      </section>
+
+      <section>
+        <h2 className="text-2xl font-bold text-navy mb-3">🔋 Battery</h2>
+        <p className="text-slate-600 leading-relaxed">
+          {review.content.battery}
+        </p>
+      </section>
+
+      <section>
+        <h2 className="text-2xl font-bold text-navy mb-3">👍 Who Should Buy It?</h2>
+        <p className="text-slate-600 leading-relaxed">
+          {review.content.whoShouldBuy}
+        </p>
+      </section>
+    </>
+  )}
+</div>
 
         <div className="grid sm:grid-cols-2 gap-6 mt-10">
           <div className="rounded-2xl border border-emerald-100 bg-emerald-50/50 p-6">
