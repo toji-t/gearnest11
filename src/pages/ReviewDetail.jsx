@@ -56,7 +56,9 @@ export default function ReviewDetail() {
         <div className="mt-6">
           <RatingStars rating={review.rating} size="md" />
         </div>
-
+<p className="text-red-500 text-sm">
+  {product?.image}
+</p>
         <img
   src={product.image}
   alt={product.name}
