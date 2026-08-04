@@ -1,26 +1,35 @@
 export const reviews = [
-  {
-    slug: "aerowave-pro-14-review",
-    productSlug: "aerowave-pro-14",
-    title: "Aerowave Pro 14 Review: The Thin-and-Light We Actually Recommend",
-    excerpt:
-      "After three weeks of daily use, the Pro 14's OLED panel and 11-hour battery make it the easiest laptop recommendation we've made all year.",
-    category: "laptops",
-    author: "Maya Chen",
-    date: "2026-06-18",
-    readTime: "9 min read",
-    rating: 4.7,
-    pros: [
-      "Stunning 3K OLED display with true blacks",
-      "Genuinely all-day battery life",
-      "Fanless silence during everyday tasks",
-    ],
-    cons: [
-      "Only two USB-C ports",
-      "Webcam is merely average",
-    ],
-    verdict:
-      "If you want a 14-inch laptop that disappears into your bag and still turns heads on the desk, the Aerowave Pro 14 is the one to buy.",
+{
+  slug: "macbook-air-m4-review",
+  productSlug: "macbook-air-m4",
+  title: "MacBook Air M4 Review: The Best Laptop for Most People in 2026",
+  excerpt:
+    "Apple's latest MacBook Air with the M4 chip delivers incredible performance, exceptional battery life, and a premium design that makes it our top recommendation for students, professionals, and everyday users.",
+  category: "laptops",
+  author: "GearNest Team",
+  date: "2026-08-02",
+  readTime: "10 min read",
+  rating: 4.9,
+  pros: [
+    "Extremely fast M4 performance",
+    "Outstanding battery life",
+    "Premium build quality and beautiful display",
+  ],
+  cons: [
+    "Limited ports",
+    "Upgrades can become expensive",
+  ],
+  verdict:
+    "The MacBook Air M4 is easily one of the best laptops you can buy in 2026. If you want a lightweight laptop that excels at work, study, and everyday use, it's an easy recommendation.",
+  content: {
+    camera:
+      "The 12MP Center Stage webcam is a noticeable improvement for video calls. It keeps you centered in the frame and delivers sharp image quality, making it ideal for meetings and online classes.",
+    performance:
+      "Powered by Apple's M4 chip, the MacBook Air handles multitasking, video editing, coding, and creative work effortlessly while remaining completely silent during everyday tasks.",
+    battery:
+      "Battery life is one of the biggest highlights. During our testing, the MacBook Air comfortably lasted an entire workday, making it one of the longest-lasting thin laptops available.",
+    whoShouldBuy:
+      "Students, professionals, creators, and anyone looking for a reliable premium laptop will love the MacBook Air M4. It's the best choice for most people unless you specifically need a high-end gaming laptop.",
   },
   {
     slug: "keyforge-tkl-review",
