@@ -70,57 +70,34 @@ export default function ReviewDetail() {
     {review.excerpt}
   </p>
 
-  {review.content && (
-    <>
-    {review.category === "smartphones" ? (
-  <>
-    <section>
-      <h2 className="text-2xl font-bold text-navy mb-3">📷 Camera</h2>
-      <p className="text-slate-600 leading-relaxed">
-        {review.content.camera}
-      </p>
-    </section>
+  {review.content &&
+    Object.entries(review.content).map(([key, value]) => {
+      const titles = {
+        intro: "📖 Introduction",
+        camera: "📷 Camera",
+        sound: "🎵 Sound Quality",
+        comfort: "👌 Comfort",
+        display: "💻 Display",
+        performance: "⚡ Performance",
+        battery: "🔋 Battery",
+        gaming: "🎮 Gaming",
+        keyboard: "⌨️ Keyboard",
+        design: "🎨 Design",
+        whoShouldBuy: "👍 Who Should Buy It?",
+      };
 
-    <section>
-      <h2 className="text-2xl font-bold text-navy mb-3">⚡ Performance</h2>
-      <p className="text-slate-600 leading-relaxed">
-        {review.content.performance}
-      </p>
-    </section>
-  </>
-) : (
-  <>
-    <section>
-      <h2 className="text-2xl font-bold text-navy mb-3">🎵 Sound Quality</h2>
-      <p className="text-slate-600 leading-relaxed">
-        {review.content.sound}
-      </p>
-    </section>
+      return (
+        <section key={key}>
+          <h2 className="text-2xl font-bold text-navy mb-3">
+            {titles[key] || key}
+          </h2>
 
-    <section>
-      <h2 className="text-2xl font-bold text-navy mb-3">👌 Comfort</h2>
-      <p className="text-slate-600 leading-relaxed">
-        {review.content.comfort}
-      </p>
-    </section>
-  </>
-)}
-
-      <section>
-        <h2 className="text-2xl font-bold text-navy mb-3">🔋 Battery</h2>
-        <p className="text-slate-600 leading-relaxed">
-          {review.content.battery}
-        </p>
-      </section>
-
-      <section>
-        <h2 className="text-2xl font-bold text-navy mb-3">👍 Who Should Buy It?</h2>
-        <p className="text-slate-600 leading-relaxed">
-          {review.content.whoShouldBuy}
-        </p>
-      </section>
-    </>
-  )}
+          <p className="text-slate-600 leading-relaxed">
+            {value}
+          </p>
+        </section>
+      );
+    })}
 </div>
 
         <div className="grid sm:grid-cols-2 gap-6 mt-10">
