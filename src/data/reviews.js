@@ -21,16 +21,22 @@ export const reviews = [
   ],
   verdict:
     "The MacBook Air M4 is easily one of the best laptops you can buy in 2026. If you want a lightweight laptop that excels at work, study, and everyday use, it's an easy recommendation.",
-  content: {
-    camera:
-      "The 12MP Center Stage webcam is a noticeable improvement for video calls. It keeps you centered in the frame and delivers sharp image quality, making it ideal for meetings and online classes.",
-    performance:
-      "Powered by Apple's M4 chip, the MacBook Air handles multitasking, video editing, coding, and creative work effortlessly while remaining completely silent during everyday tasks.",
-    battery:
-      "Battery life is one of the biggest highlights. During our testing, the MacBook Air comfortably lasted an entire workday, making it one of the longest-lasting thin laptops available.",
-    whoShouldBuy:
-      "Students, professionals, creators, and anyone looking for a reliable premium laptop will love the MacBook Air M4. It's the best choice for most people unless you specifically need a high-end gaming laptop.",
-    },
+content: {
+  intro:
+    "The MacBook Air M4 is Apple's best lightweight laptop yet, offering excellent performance, long battery life, and a premium design.",
+
+  display:
+    "The 13.6-inch Liquid Retina display is bright, sharp, and color-accurate, making it excellent for work, media consumption, and creative tasks.",
+
+  performance:
+    "Powered by Apple's M4 chip, the MacBook Air handles multitasking, video editing, coding, and creative work effortlessly while remaining completely silent during everyday tasks.",
+
+  battery:
+    "Battery life is one of the biggest highlights. During our testing, the MacBook Air comfortably lasted an entire workday, making it one of the longest-lasting thin laptops available.",
+
+  whoShouldBuy:
+    "Students, professionals, creators, and anyone looking for a reliable premium laptop will love the MacBook Air M4. It's the best choice for most people unless you specifically need a high-end gaming laptop.",
+},
 },
 {
     slug: "keyforge-tkl-review",
