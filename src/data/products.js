@@ -72,7 +72,7 @@ featured: true,
 
 
   {
-    slug: "macbook-air-m4",
+    slug: "macbook-air-m5"
     name: "Apple MacBook Air 15-inch with M5 chip: 32GB Memory, 512GB SSD - Midnight",
     brand: "Apple",
     category: "laptops",
