@@ -1,10 +1,10 @@
 export const reviews = [
 {
-  slug: "macbook-air-m4-review",
-  productSlug: "macbook-air-m4",
-  title: "MacBook Air M4 Review: The Best Laptop for Most People in 2026",
-  excerpt:
-    "Apple's latest MacBook Air with the M4 chip delivers incredible performance, exceptional battery life, and a premium design that makes it our top recommendation for students, professionals, and everyday users.",
+ slug: "macbook-air-m5-review",
+productSlug: "macbook-air-m5",
+ title: "Apple MacBook Air 15-inch (M5) Review: Is It Worth Buying in 2026?",
+ excerpt:
+  "The Apple MacBook Air 15-inch with the M5 chip delivers exceptional performance, outstanding battery life, and a premium design, making it one of the best laptops you can buy in 2026.",
   category: "laptops",
   author: "GearNest Team",
   date: "2026-08-02",
