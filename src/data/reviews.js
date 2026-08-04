@@ -30,8 +30,9 @@ export const reviews = [
       "Battery life is one of the biggest highlights. During our testing, the MacBook Air comfortably lasted an entire workday, making it one of the longest-lasting thin laptops available.",
     whoShouldBuy:
       "Students, professionals, creators, and anyone looking for a reliable premium laptop will love the MacBook Air M4. It's the best choice for most people unless you specifically need a high-end gaming laptop.",
-  },
-  {
+    },
+},
+{
     slug: "keyforge-tkl-review",
     productSlug: "keyforge-tkl",
     title: "Keyforge TKL Review: Gasket-Mount Feel Without the Custom-Build Hassle",
