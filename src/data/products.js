@@ -72,7 +72,7 @@ featured: true,
 
 
   {
-    slug: "macbook-air-m5"
+    slug: "macbook-air-m5",
     name: "Apple MacBook Air 15-inch with M5 chip: 32GB Memory, 512GB SSD - Midnight",
     brand: "Apple",
     category: "laptops",
@@ -81,7 +81,7 @@ featured: true,
     rating: 4.8,
     reviewCount: 18000,
     tagline:
-      "Powerful M4 performance in a thin, lightweight laptop built for everyday work",
+    "Powerful M5 performance in a thin, lightweight laptop built for everyday work",
     image: "/products/macbook-air.jpg",
     badges: ["Editor's Pick"],
     affiliateUrl: "https://www.amazon.com/dp/B0G4SWDH8P?tag=gearnest11-20",
