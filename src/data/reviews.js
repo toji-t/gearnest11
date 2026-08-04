@@ -1,42 +1,47 @@
 export const reviews = [
 {
- slug: "macbook-air-m5-review",
-productSlug: "macbook-air-m5",
- title: "Apple MacBook Air 15-inch (M5) Review: Is It Worth Buying in 2026?",
- excerpt:
-  "The Apple MacBook Air 15-inch with the M5 chip delivers exceptional performance, outstanding battery life, and a premium design, making it one of the best laptops you can buy in 2026.",
+  slug: "macbook-air-m5-review",
+  productSlug: "macbook-air-m5",
+  title: "Apple MacBook Air 15-inch (M5) Review: Is It Worth Buying in 2026?",
+  excerpt:
+    "The Apple MacBook Air 15-inch with the M5 chip delivers exceptional performance, outstanding battery life, and a premium design, making it one of the best laptops you can buy in 2026.",
+
   category: "laptops",
   author: "GearNest Team",
   date: "2026-08-02",
   readTime: "10 min read",
   rating: 4.9,
+
   pros: [
-    "Extremely fast M4 performance",
-    "Outstanding battery life",
-    "Premium build quality and beautiful display",
+    "Excellent M5 performance for work and multitasking",
+    "Beautiful 15-inch Liquid Retina display",
+    "Outstanding all-day battery life",
   ],
+
   cons: [
     "Limited ports",
-    "Upgrades can become expensive",
+    "Memory and storage upgrades increase the price",
   ],
+
   verdict:
-    "The MacBook Air M4 is easily one of the best laptops you can buy in 2026. If you want a lightweight laptop that excels at work, study, and everyday use, it's an easy recommendation.",
-content: {
-  intro:
-    "The MacBook Air M4 is Apple's best lightweight laptop yet, offering excellent performance, long battery life, and a premium design.",
+    "The Apple MacBook Air 15-inch with the M5 chip is one of the best premium laptops you can buy in 2026. It delivers outstanding performance, excellent battery life, and a beautiful display in a lightweight design.",
 
-  display:
-    "The 13.6-inch Liquid Retina display is bright, sharp, and color-accurate, making it excellent for work, media consumption, and creative tasks.",
+  content: {
+    intro:
+      "The Apple MacBook Air 15-inch with the M5 chip is Apple's latest lightweight laptop. It offers incredible speed, long battery life, and a premium design, making it an excellent choice for students, professionals, and creators.",
 
-  performance:
-    "Powered by Apple's M4 chip, the MacBook Air handles multitasking, video editing, coding, and creative work effortlessly while remaining completely silent during everyday tasks.",
+    display:
+      "The 15-inch Liquid Retina display is bright, sharp, and color-accurate, making it perfect for work, entertainment, and creative projects.",
 
-  battery:
-    "Battery life is one of the biggest highlights. During our testing, the MacBook Air comfortably lasted an entire workday, making it one of the longest-lasting thin laptops available.",
+    performance:
+      "Powered by Apple's M5 chip, the MacBook Air handles multitasking, video editing, coding, and everyday work effortlessly while remaining cool and quiet.",
 
-  whoShouldBuy:
-    "Students, professionals, creators, and anyone looking for a reliable premium laptop will love the MacBook Air M4. It's the best choice for most people unless you specifically need a high-end gaming laptop.",
-},
+    battery:
+      "Battery life easily lasts an entire workday, making it one of the longest-lasting thin laptops available.",
+
+    whoShouldBuy:
+      "Students, professionals, creators, and anyone looking for a premium lightweight laptop will love the MacBook Air M5.",
+  },
 },
 {
     slug: "keyforge-tkl-review",
