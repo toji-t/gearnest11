@@ -16,7 +16,6 @@ export const products = [
       "All-new AirPods with rich sound, personalized spatial audio, and a comfortable open-ear design",
     image: "/products/airpods-4.jpg",
     badges: ["Popular"],
-    affiliateUrl:
      affiliateUrl: "https://www.amazon.com/dp/B0G4SWDH8P?tag=gearnest11-20",
     featured: false,
   },
@@ -34,7 +33,6 @@ export const products = [
       "Affordable wireless headphones with hybrid active noise cancellation and customizable sound",
     image: "/products/soundcore-q20i.jpg",
     badges: ["Best Value"],
-    affiliateUrl:
   affiliateUrl: "https://www.amazon.com/dp/B0G4SWDH8P?tag=gearnest11-20",
     featured: true,
   },
