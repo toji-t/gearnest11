@@ -44,51 +44,51 @@ export const reviews = [
   },
 },
 {
-    slug: "keyforge-tkl-review",
-    productSlug: "keyforge-tkl",
-    title: "Keyforge TKL Review: Gasket-Mount Feel Without the Custom-Build Hassle",
-    excerpt:
-      "Keyforge packed a genuinely premium typing experience into a board that's ready to use the moment it's out of the box.",
-    category: "keyboards",
-    author: "Diego Ramirez",
-    date: "2026-05-30",
-    readTime: "7 min read",
-    rating: 4.8,
-    pros: [
-      "Deep, cushioned gasket-mount typing feel",
-      "Hot-swap sockets support 3 and 5-pin switches",
-      "Software is clean and genuinely useful",
-    ],
-    cons: [
-      "Stock stabilizers need a light lube job",
-      "No wireless option yet",
-    ],
-    verdict:
-      "For under $150, this is the most convincing case yet for skipping a custom keyboard build entirely.",
+  slug: "apple-ipad-pro-m4-review",
+  productSlug: "apple-ipad-pro-m4",
+  title: "Apple iPad Pro 11-inch (M4) Review: The Best Tablet You Can Buy in 2026",
+  excerpt:
+    "The Apple iPad Pro 11-inch (M4) combines incredible performance, a stunning Ultra Retina XDR display, and exceptional portability, making it the best premium tablet for creators, students, and professionals.",
+
+  category: "accessories",
+  author: "GearNest Team",
+  date: "2026-08-04",
+  readTime: "9 min read",
+  rating: 4.9,
+
+  pros: [
+    "Blazing-fast Apple M4 performance",
+    "Beautiful Ultra Retina XDR OLED display",
+    "Excellent battery life",
+    "Premium lightweight design",
+    "Fantastic Apple Pencil Pro support",
+  ],
+
+  cons: [
+    "Very expensive",
+    "Accessories sold separately",
+  ],
+
+  verdict:
+    "The Apple iPad Pro 11-inch (M4) is the most powerful tablet available in 2026. Whether you're editing videos, drawing, taking notes, or replacing a laptop, it's one of the best premium devices Apple has ever made.",
+
+  content: {
+    intro:
+      "Apple's iPad Pro 11-inch with the M4 chip brings desktop-class performance into an incredibly thin and lightweight tablet. Combined with its stunning OLED display and Apple Pencil Pro support, it's built for users who want the best tablet experience available.",
+
+    display:
+      "The Ultra Retina XDR OLED display is simply gorgeous. Colors are vibrant, blacks are truly deep, brightness is excellent outdoors, and ProMotion 120Hz makes everything feel incredibly smooth.",
+
+    performance:
+      "Powered by Apple's M4 processor, the iPad Pro handles multitasking, video editing, graphic design, gaming, and professional apps effortlessly. Performance is far beyond what most users will ever need.",
+
+    battery:
+      "Battery life easily lasts throughout an entire workday for web browsing, streaming, note-taking, and creative work. Combined with fast charging, it's an excellent travel companion.",
+
+    whoShouldBuy:
+      "The iPad Pro M4 is perfect for digital artists, students, professionals, photographers, video editors, and anyone who wants the most powerful premium tablet available today.",
   },
-  {
-    slug: "auralis-anc-2-review",
-    productSlug: "auralis-anc-2",
-    title: "Auralis ANC 2 Review: The Noise-Cancelling Headphones to Beat",
-    excerpt:
-      "Auralis closes the gap with the segment leaders on ANC performance while pulling ahead on sound signature.",
-    category: "headphones",
-    author: "Priya Nair",
-    date: "2026-07-02",
-    readTime: "8 min read",
-    rating: 4.7,
-    pros: [
-      "Class-leading active noise cancellation",
-      "Warm, detailed sound out of the box",
-      "30-hour battery with ANC on",
-    ],
-    cons: [
-      "Case is bulkier than competitors",
-      "Touch controls are occasionally finicky",
-    ],
-    verdict:
-      "Unless you're locked into an ecosystem, the Auralis ANC 2 is the pair we'd tell a friend to buy today.",
-  },
+},
   {
     slug: "clarion-27-qhd-review",
     productSlug: "clarion-27-qhd",
