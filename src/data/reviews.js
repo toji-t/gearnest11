@@ -89,16 +89,16 @@ export const reviews = [
       "The iPad Pro M4 is perfect for digital artists, students, professionals, photographers, video editors, and anyone who wants the most powerful premium tablet available today.",
   },
 },
- {
-  slug: "lg-c2-oled-review",
-  productSlug: "lg-c2-oled-review",
+{
+  slug: "lg-c2-oled-42-review",
+  productSlug: "lg-c2-oled-42",
 
   title: "LG C2 OLED evo 42-inch 4K Smart TV Review: Still Worth Buying in 2026?",
 
   excerpt:
-    "Despite newer OLED TVs hitting the market, the LG C2 OLED evo 42-inch remains one of the best gaming and entertainment TVs thanks to its incredible picture quality, HDMI 2.1 features, and excellent value.",
+    "The LG C2 OLED evo 42-inch continues to be one of the best OLED TVs for gaming, movies, and everyday entertainment thanks to its stunning OLED display, HDMI 2.1 features, and incredible value.",
 
-  category: "tvs",
+  category: "accessories",
 
   author: "GearNest Team",
 
@@ -109,35 +109,38 @@ export const reviews = [
   rating: 4.8,
 
   pros: [
-    "Excellent OLED picture quality",
+    "Outstanding OLED picture quality",
     "Perfect for PS5 and Xbox Series X",
     "120Hz refresh rate with HDMI 2.1",
+    "Dolby Vision and Dolby Atmos support",
+    "Excellent gaming features",
   ],
 
   cons: [
-    "Brightness isn't as high as newer OLED TVs",
     "Average built-in speakers",
+    "Brightness lower than the newest OLED models",
   ],
 
   verdict:
-    "The LG C2 OLED evo 42-inch remains one of the best OLED TVs for gaming, movies, and everyday entertainment. Even in 2026, it offers premium picture quality and fantastic value if you can find it at a good price.",
+    "The LG C2 OLED evo 42-inch remains one of the best premium OLED TVs you can buy. Its excellent picture quality, gaming performance, and smart features make it an outstanding choice even in 2026.",
 
   content: {
     intro:
-      "The LG C2 OLED evo 42-inch continues to be one of the most popular OLED TVs thanks to its outstanding image quality, gaming features, and premium design. Even though newer models are available, the C2 still delivers an excellent viewing experience.",
+      "The LG C2 OLED evo 42-inch remains one of the most recommended OLED TVs thanks to its incredible display quality, premium gaming features, and excellent smart TV experience. Even with newer models available, it still delivers outstanding value.",
 
     display:
-      "The OLED evo panel produces perfect blacks, vibrant colors, and exceptional contrast. Dolby Vision and HDR content look stunning, making movies and games incredibly immersive.",
+      "The OLED evo panel produces perfect blacks, vibrant colors, and exceptional contrast. Dolby Vision HDR content looks stunning, making movies, sports, and games incredibly immersive.",
 
     performance:
-      "Powered by LG's α9 Gen5 AI Processor, the TV delivers smooth navigation, fast app loading, excellent upscaling, and outstanding gaming performance with HDMI 2.1, VRR, G-SYNC, and FreeSync support.",
+      "Powered by LG's α9 Gen5 AI Processor, the TV delivers smooth navigation, fast app loading, excellent image processing, and outstanding gaming performance with HDMI 2.1, VRR, NVIDIA G-SYNC, and AMD FreeSync Premium.",
 
     battery:
-      "As a television, the LG C2 does not use a battery. Its energy efficiency is excellent for an OLED display of this size.",
+      "As a television, the LG C2 does not use a battery. Instead, it focuses on excellent energy efficiency while delivering premium OLED performance.",
 
     whoShouldBuy:
-      "Gamers, movie lovers, content creators, and anyone looking for a premium OLED TV without paying flagship prices will love the LG C2 OLED evo 42-inch.",
+      "Gamers, movie lovers, PlayStation 5 and Xbox Series X owners, and anyone looking for a premium OLED TV without paying flagship prices will love the LG C2 OLED evo 42-inch.",
   },
+}
 }
   {
     slug: "haloedge-13-review",
