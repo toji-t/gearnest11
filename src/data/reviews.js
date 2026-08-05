@@ -140,8 +140,7 @@ export const reviews = [
     whoShouldBuy:
       "Gamers, movie lovers, PlayStation 5 and Xbox Series X owners, and anyone looking for a premium OLED TV without paying flagship prices will love the LG C2 OLED evo 42-inch.",
   },
-}
-}
+},
   {
     slug: "haloedge-13-review",
     productSlug: "haloedge-13",
