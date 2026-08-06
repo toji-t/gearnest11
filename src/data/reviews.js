@@ -143,7 +143,7 @@ export const reviews = [
 },
 {
    slug: "apple-watch-series-11"
-  productSlug: "Apple Watch Series 11 [GPS 42mm] Smartwatch - Jet Black Aluminum Case with Black Sport Band",
+  productSlug: "apple-watch-series-11"
   title: "Apple Watch Series 11 Review: Is Apple's Best Smartwatch Worth Buying in 2026?",
 
   excerpt:
