@@ -154,7 +154,7 @@ affiliateUrl: "https://www.amazon.com/dp/B0GX78S7QQ?tag=gearnest11-20",
 },
 
 {
- slug: "apple-watch-series-11"
+  slug: "apple-watch-series-11"
  productSlug: "apple-watch-series-11"
   brand: "Apple",
   category: "accessories",
