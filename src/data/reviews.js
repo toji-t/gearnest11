@@ -192,6 +192,7 @@ export const reviews = [
     whoShouldBuy:
       "The Apple Watch Series 11 is perfect for iPhone users who want the best smartwatch experience, including advanced health tracking, reliable fitness monitoring, seamless notifications, and premium build quality.",
   },
+},
   {
     slug: "pulsecore-controller-review",
     productSlug: "pulsecore-controller",
