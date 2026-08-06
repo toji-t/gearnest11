@@ -141,29 +141,58 @@ export const reviews = [
       "Gamers, movie lovers, PlayStation 5 and Xbox Series X owners, and anyone looking for a premium OLED TV without paying flagship prices will love the LG C2 OLED evo 42-inch.",
   },
 },
-  {
-    slug: "haloedge-13-review",
-    productSlug: "haloedge-13",
-    title: "Haloedge 13 Review: Flagship Cameras, Sensible Size",
-    excerpt:
-      "Haloedge resisted the urge to chase a bigger screen and delivered the best compact flagship camera system we've tested.",
-    category: "smartphones",
-    author: "Maya Chen",
-    date: "2026-07-14",
-    readTime: "10 min read",
-    rating: 4.7,
-    pros: [
-      "Best-in-class computational photography",
-      "Genuinely one-handed usable size",
-      "Five years of confirmed software updates",
-    ],
-    cons: [
-      "Battery life is good, not great",
-      "Charging speed trails rivals",
-    ],
-    verdict:
-      "For anyone who misses compact flagships, the Haloedge 13 is the phone you've been waiting for.",
+{
+  slug: "apple-watch-series-11-review",
+  productSlug: "apple-watch-series-11",
+
+  title: "Apple Watch Series 11 Review: Is Apple's Best Smartwatch Worth Buying in 2026?",
+
+  excerpt:
+    "The Apple Watch Series 11 delivers faster performance, advanced health tracking, and an improved display, making it one of the best smartwatches for iPhone users in 2026.",
+
+  category: "wearables",
+
+  author: "GearNest Team",
+
+  date: "2026-08-04",
+
+  readTime: "9 min read",
+
+  rating: 4.8,
+
+  pros: [
+    "Bright Always-On Retina display",
+    "Outstanding health and fitness tracking",
+    "Fast performance with the latest Apple chip",
+    "Excellent GPS accuracy",
+    "Premium build quality",
+  ],
+
+  cons: [
+    "Battery life still lasts about one day",
+    "Works best within the Apple ecosystem",
+  ],
+
+  verdict:
+    "The Apple Watch Series 11 is the best smartwatch for most iPhone users. With faster performance, advanced health features, and a refined design, it remains the smartwatch to beat in 2026.",
+
+  content: {
+    intro:
+      "The Apple Watch Series 11 continues Apple's dominance in the smartwatch market by combining premium design, powerful performance, and industry-leading health features. Whether you're tracking workouts, monitoring your health, or staying connected throughout the day, it delivers an outstanding wearable experience.",
+
+    display:
+      "The Always-On Retina display is brighter and easier to read outdoors than previous generations. Colors are vibrant, animations are smooth, and the edge-to-edge design gives the watch a premium appearance.",
+
+    performance:
+      "Powered by Apple's latest S11 chip, the Series 11 feels incredibly responsive. Apps launch instantly, navigation is smooth, Siri is faster, and health sensors provide more accurate tracking than ever before.",
+
+    battery:
+      "Battery life remains around a full day with normal use, which is enough for most users but still behind some competing smartwatches. Fast charging helps reduce downtime significantly.",
+
+    whoShouldBuy:
+      "The Apple Watch Series 11 is perfect for iPhone users who want the best smartwatch experience, including advanced health tracking, reliable fitness monitoring, seamless notifications, and premium build quality.",
   },
+}
   {
     slug: "pulsecore-controller-review",
     productSlug: "pulsecore-controller",
