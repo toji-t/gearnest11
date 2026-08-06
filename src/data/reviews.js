@@ -192,29 +192,58 @@ export const reviews = [
       "The Apple Watch Series 11 is perfect for iPhone users who want the best smartwatch experience, including advanced health tracking, reliable fitness monitoring, seamless notifications, and premium build quality.",
   },
 },
-  {
-    slug: "pulsecore-controller-review",
-    productSlug: "pulsecore-controller",
-    title: "Pulsecore Controller Review: Drift-Proof Sticks Change Everything",
-    excerpt:
-      "Hall-effect sticks aren't a gimmick — after two months of hard use, there's zero measurable drift.",
-    category: "gaming",
-    author: "Diego Ramirez",
-    date: "2026-06-27",
-    readTime: "5 min read",
-    rating: 4.5,
-    pros: [
-      "Hall-effect sticks show no drift after heavy use",
-      "Low-latency wireless dongle included",
-      "Comfortable for long sessions",
-    ],
-    cons: [
-      "Companion app is basic",
-      "Slightly heavier than stock controllers",
-    ],
-    verdict:
-      "If stick drift has ever ruined a controller for you, this is the upgrade that finally fixes it.",
+{
+  slug: "asus-rog-rapture-gt-be98-pro-review",
+  productSlug: "asus-rog-rapture-gt-be98-pro",
+
+  title: "ASUS ROG Rapture GT-BE98 Pro Review: Is This the Ultimate WiFi 7 Gaming Router?",
+
+  excerpt:
+    "The ASUS ROG Rapture GT-BE98 Pro combines blazing-fast WiFi 7 speeds, dual 10G ports, AI Mesh support, and advanced gaming optimization, making it one of the most powerful routers available in 2026.",
+
+  category: "accessories",
+
+  author: "GearNest Team",
+
+  date: "2026-08-06",
+
+  readTime: "9 min read",
+
+  rating: 4.7,
+
+  pros: [
+    "Outstanding WiFi 7 performance",
+    "Dual 10G Ethernet ports",
+    "Excellent gaming optimization",
+    "Strong security and parental controls",
+    "Wide coverage with AI Mesh support",
+  ],
+
+  cons: [
+    "Premium price",
+    "Large design may not suit every setup",
+  ],
+
+  verdict:
+    "The ASUS ROG Rapture GT-BE98 Pro is one of the best gaming routers money can buy. If you want maximum WiFi performance, future-proof networking, and premium gaming features, it's an outstanding investment.",
+
+  content: {
+    intro:
+      "The ASUS ROG Rapture GT-BE98 Pro is ASUS's flagship WiFi 7 gaming router built for competitive gamers, streamers, and smart homes. With quad-band WiFi 7 technology, dual 10G ports, and advanced gaming acceleration, it delivers exceptional performance for demanding users.",
+
+    display:
+      "The GT-BE98 Pro features ASUS's signature ROG design with eight external antennas, customizable RGB lighting, and a premium build that looks right at home in a high-end gaming setup.",
+
+    performance:
+      "Powered by quad-band WiFi 7, the router delivers extremely fast wireless speeds, ultra-low latency, and reliable connections even when multiple devices are connected. Features like Game Boost, Adaptive QoS, and dual 10G ports ensure outstanding gaming and streaming performance.",
+
+    battery:
+      "As a desktop networking device, the ASUS ROG Rapture GT-BE98 Pro runs on AC power and does not include a battery.",
+
+    whoShouldBuy:
+      "The GT-BE98 Pro is ideal for competitive gamers, streamers, creators, and anyone with multi-gig internet who wants the fastest WiFi 7 performance, premium gaming features, and reliable whole-home coverage.",
   },
+},
 {
   slug: "samsung-galaxy-s25-ultra-review",
   productSlug: "samsung-galaxy-s25-ultra",
