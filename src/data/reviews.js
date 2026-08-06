@@ -150,7 +150,7 @@ export const reviews = [
   excerpt:
     "The Apple Watch Series 11 delivers faster performance, advanced health tracking, and an improved display, making it one of the best smartwatches for iPhone users in 2026.",
 
-  category: "wearables",
+  category: "accessories",
 
   author: "GearNest Team",
 
