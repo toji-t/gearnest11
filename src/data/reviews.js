@@ -142,7 +142,7 @@ export const reviews = [
   },
 },
 {
-   slug: "apple-watch-series-11"
+  slug: "apple-watch-series-11"
   productSlug: "apple-watch-series-11"
   title: "Apple Watch Series 11 Review: Is Apple's Best Smartwatch Worth Buying in 2026?",
 
