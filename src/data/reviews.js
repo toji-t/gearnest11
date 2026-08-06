@@ -141,9 +141,9 @@ export const reviews = [
       "Gamers, movie lovers, PlayStation 5 and Xbox Series X owners, and anyone looking for a premium OLED TV without paying flagship prices will love the LG C2 OLED evo 42-inch.",
   },
 },
-{
-  slug: "apple-watch-series-11"
-  productSlug: "apple-watch-series-11"
+  {
+  slug: "apple-watch-series-11-review",
+  productSlug: "apple-watch-series-11",
   title: "Apple Watch Series 11 Review: Is Apple's Best Smartwatch Worth Buying in 2026?",
 
   excerpt:
