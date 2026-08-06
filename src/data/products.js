@@ -153,9 +153,9 @@ affiliateUrl: "https://www.amazon.com/dp/B0GX78S7QQ?tag=gearnest11-20",
   featured: true,
 },
 
-  {
-  slug: "apple-watch-series-11-42mm-jet-black",
-  name: "Apple Watch Series 11 [GPS 42mm] Smartwatch - Jet Black Aluminum Case with Black Sport Band",
+{
+ slug: "apple-watch-series-11"
+ productSlug: "apple-watch-series-11"
   brand: "Apple",
   category: "accessories",
   price: 260.17,
