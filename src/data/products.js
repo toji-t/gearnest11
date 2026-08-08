@@ -265,6 +265,22 @@ affiliateUrl: "https://www.amazon.com/dp/B0GX78S7QQ?tag=gearnest11-20",
 affiliateUrl: "https://www.amazon.com/dp/B0CJ4TPLRM?tag=gearnest11-20",
     featured: true,
   },
+  {
+  slug: "anker-power-bank-10k-fusion",
+  name: "Anker Power Bank (10K, Fusion, Built-In USB-C Cable)",
+  brand: "Anker",
+  category: "accessories",
+  price: 69.99,
+  originalPrice: null,
+  rating: 4.7,
+  reviewCount: 482,
+  tagline:
+    "10,000mAh power bank with 30W fast charging, a built-in USB-C cable, and a compact all-in-one design",
+  image: "/products/anker-power-bank-10k-fusion.jpg",
+  badges: ["Trending"],
+  affiliateUrl: "https://www.amazon.com/dp/B0FKH9CG2Q?tag=gearnest11-20",
+  featured: true,
+},
 ];
 
 export const getProduct = (slug) =>
