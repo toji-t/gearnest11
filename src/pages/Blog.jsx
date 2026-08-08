@@ -211,4 +211,4 @@
   be taking the smart home market more seriously, and the next few years could
   be very interesting for Apple users.
 </p>
-<>
+
