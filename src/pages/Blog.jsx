@@ -2,27 +2,30 @@ import React from "react";
 
 export default function Blog() {
   return (
-    <div className="max-w-4xl mx-auto px-6 py-12">
-  <a
-    href="/blog/ai-skills-2026"
-    className="block mb-10 p-6 rounded-2xl border border-gray-200 hover:shadow-lg transition"
-  >
-    <h2 className="text-2xl font-bold mb-2">
-      AI Skills Every College Student Needs in 2026
-    </h2>
-
-    <p className="text-gray-500 mb-3">
-      Discover the practical AI skills students should learn in 2026.
-    </p>
-
-    <span className="text-blue-600 font-semibold">
-      Read Article →
-    </span>
-  </a>
     <main className="max-w-4xl mx-auto px-6 py-12">
+
+      {/* AI Skills Article */}
+      <a
+        href="/blog/ai-skills-2026"
+        className="block mb-10 p-6 rounded-2xl border border-gray-200 hover:shadow-lg transition"
+      >
+        <h2 className="text-2xl font-bold mb-2">
+          AI Skills Every College Student Needs in 2026
+        </h2>
+
+        <p className="text-gray-500 mb-3">
+          Discover the practical AI skills students should learn in 2026.
+        </p>
+
+        <span className="text-blue-600 font-semibold">
+          Read Article →
+        </span>
+      </a>
+
+      {/* Apple Smart Home Article */}
       <h1 className="text-4xl font-bold mb-4">
-  Apple's Smart Home Revolution Is Coming in 2026: Here's Everything We Know
-</h1>
+        Apple's Smart Home Revolution Is Coming in 2026: Here's Everything We Know
+      </h1>
 
       <p className="text-gray-500 mb-8">
         Published: August 2026
@@ -234,28 +237,19 @@ export default function Blog() {
         be taking the smart home market more seriously, and the next few years could
         be very interesting for Apple users.
       </p>
-      </div>
+
+      {/* GearNest product recommendation */}
       <p className="mb-6">
-  If you're building an Apple-focused setup, check out our{" "}
-  <a
-    href="/products/headphones/airpods-4"
-    className="text-blue-600 font-semibold hover:underline"
-  >
-    AirPods 4
-  </a>{" "}
-  review on GearNest.
-</p>
-      <p className="mb-6">
-  If you're also looking for a powerful Apple device for work, study, or
-  entertainment, check out our{" "}
-  <a
-    href="/products/accessories/apple-ipad-pro-m4"
-    className="text-blue-600 font-semibold hover:underline"
-  >
-    Apple iPad Pro M4
-  </a>{" "}
-  review on GearNest.
-</p>
+        If you're building an Apple-focused setup, check out our{" "}
+        <a
+          href="/products/headphones/airpods-4"
+          className="text-blue-600 font-semibold hover:underline"
+        >
+          AirPods 4
+        </a>{" "}
+        review on GearNest.
+      </p>
+
     </main>
   );
 }
