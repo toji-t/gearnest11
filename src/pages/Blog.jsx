@@ -4,8 +4,8 @@ export default function Blog() {
   return (
     <main className="max-w-4xl mx-auto px-6 py-12">
       <h1 className="text-4xl font-bold mb-4">
-        Apple Is Finally Going All-In on Smart Homes: Here's Everything We Know
-      </h1>
+  Apple's Smart Home Revolution Is Coming in 2026: Here's Everything We Know
+</h1>
 
       <p className="text-gray-500 mb-8">
         Published: August 2026
