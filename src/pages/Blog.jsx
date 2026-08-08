@@ -217,6 +217,16 @@ export default function Blog() {
         be taking the smart home market more seriously, and the next few years could
         be very interesting for Apple users.
       </p>
+      <p className="mb-6">
+  If you're building an Apple-focused setup, check out our{" "}
+  <a
+    href="/products/headphones/airpods-4"
+    className="text-blue-600 font-semibold hover:underline"
+  >
+    AirPods 4
+  </a>{" "}
+  review on GearNest.
+</p>
     </main>
   );
 }
