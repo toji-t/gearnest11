@@ -7,6 +7,7 @@ import Reviews from "./pages/Reviews";
 import ReviewDetail from "./pages/ReviewDetail";
 import BuyingGuides from "./pages/BuyingGuides";
 import Blog from "./pages/Blog";
+import AISkills2026 from "./pages/AISkills2026";
 import GuideDetail from "./pages/GuideDetail";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
@@ -27,6 +28,7 @@ export default function App() {
         <Route path="guides" element={<BuyingGuides />} />
         <Route path="guides/:slug" element={<GuideDetail />} />
         <Route path="blog" element={<Blog />} />
+        <Route path="blog/ai-skills-2026" element={<AISkills2026 />} />
         <Route path="about" element={<About />} />
         <Route path="contact" element={<Contact />} />
         <Route path="privacy-policy" element={<Privacy />} />
