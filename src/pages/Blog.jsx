@@ -1,3 +1,4 @@
+<>
 <h1 className="text-4xl font-bold mb-4">
   Apple Is Finally Going All-In on Smart Homes: Here's Everything We Know
 </h1>
@@ -210,3 +211,4 @@
   be taking the smart home market more seriously, and the next few years could
   be very interesting for Apple users.
 </p>
+<>
