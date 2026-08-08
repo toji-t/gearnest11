@@ -314,6 +314,22 @@ affiliateUrl: "https://www.amazon.com/dp/B0CJ4TPLRM?tag=gearnest11-20",
   affiliateUrl: "https://www.amazon.com/dp/B0FH4MX7RT?tag=gearnest11-20",
   featured: true,
 },
+  {
+  slug: "logitech-pebble-wireless-mouse",
+  name: "Logitech Pebble Wireless Mouse",
+  brand: "Logitech",
+  category: "mice",
+  price: 24.99,
+  originalPrice: null,
+  rating: 4.6,
+  reviewCount: 612,
+  tagline:
+    "Compact wireless mouse with Bluetooth and USB receiver connectivity, silent clicks, and a lightweight design perfect for work, study, and travel.",
+  image: "/products/logitech-pebble-wireless-mouse.jpg",
+  badges: ["Overall Pick"],
+  affiliateUrl: "https://www.amazon.com/dp/B0B8M9TKGP?tag=gearnest11-20",
+  featured: true,
+},
 ];
 
 export const getProduct = (slug) =>
