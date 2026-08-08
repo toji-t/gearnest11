@@ -227,6 +227,17 @@ export default function Blog() {
   </a>{" "}
   review on GearNest.
 </p>
+      <p className="mb-6">
+  If you're also looking for a powerful Apple device for work, study, or
+  entertainment, check out our{" "}
+  <a
+    href="/products/accessories/apple-ipad-pro-m4"
+    className="text-blue-600 font-semibold hover:underline"
+  >
+    Apple iPad Pro M4
+  </a>{" "}
+  review on GearNest.
+</p>
     </main>
   );
 }
