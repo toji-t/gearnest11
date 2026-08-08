@@ -26,9 +26,12 @@ export default function Blog() {
             every student should consider before going back to school.
           </p>
 
-          <button className="mt-5 bg-black text-white px-5 py-2 rounded-lg">
-            Read Article
-          </button>
+          <a
+  href="https://medium.com/"
+  className="mt-5 inline-block bg-black text-white px-5 py-2 rounded-lg"
+>
+  Read Article
+</a>
         </article>
 
       </div>
