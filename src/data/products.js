@@ -298,6 +298,22 @@ affiliateUrl: "https://www.amazon.com/dp/B0CJ4TPLRM?tag=gearnest11-20",
     "https://www.amazon.com/dp/B0C8HHV9DK?tag=gearnest11-20",
   featured: true,
 },
+  {
+  slug: "ohbox-usb-a-to-usb-c-cable-2pack",
+  name: "OHBOX USB-A to USB-C Cable (2 Pack, 6FT, 60W)",
+  brand: "OHBOX",
+  category: "accessories",
+  price: 15.49,
+  originalPrice: null,
+  rating: 4.5,
+  reviewCount: 785,
+  tagline:
+    "Durable braided USB-A to USB-C charging cable with 60W fast charging. Compatible with iPhone 17, iPhone 16, iPhone 15, Samsung Galaxy devices, Android phones, tablets, and CarPlay.",
+  image: "/products/ohbox-usb-a-to-usb-c-cable.jpg",
+  badges: ["Amazon's Choice"],
+  affiliateUrl: "https://www.amazon.com/dp/B0FH4MX7RT?tag=gearnest11-20",
+  featured: true,
+},
 ];
 
 export const getProduct = (slug) =>
