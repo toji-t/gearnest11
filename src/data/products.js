@@ -281,6 +281,23 @@ affiliateUrl: "https://www.amazon.com/dp/B0CJ4TPLRM?tag=gearnest11-20",
   affiliateUrl: "https://www.amazon.com/dp/B0FKH9CG2Q?tag=gearnest11-20",
   featured: true,
 },
+  {
+  slug: "anker-nano-20w-usb-c-charger",
+  name: "Anker Nano 20W USB-C Charger",
+  brand: "Anker",
+  category: "accessories",
+  price: 23.34,
+  originalPrice: null,
+  rating: 4.8,
+  reviewCount: 15000,
+  tagline:
+    "Compact 20W USB-C fast charger for iPhone, AirPods, iPad, and Android devices with reliable Anker performance.",
+  image: "/products/anker-nano-20w-usb-c-charger.jpg",
+  badges: ["Best Value"],
+  affiliateUrl:
+    "https://www.amazon.com/dp/B0C8HHV9DK?tag=gearnest11-20",
+  featured: true,
+},
 ];
 
 export const getProduct = (slug) =>
