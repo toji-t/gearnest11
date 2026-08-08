@@ -6,6 +6,7 @@ import ProductDetail from "./pages/ProductDetail";
 import Reviews from "./pages/Reviews";
 import ReviewDetail from "./pages/ReviewDetail";
 import BuyingGuides from "./pages/BuyingGuides";
+import Blog from "./pages/Blog";
 import GuideDetail from "./pages/GuideDetail";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
@@ -25,6 +26,7 @@ export default function App() {
         <Route path="reviews/:slug" element={<ReviewDetail />} />
         <Route path="guides" element={<BuyingGuides />} />
         <Route path="guides/:slug" element={<GuideDetail />} />
+        <Route path="blog" element={<Blog />} />
         <Route path="about" element={<About />} />
         <Route path="contact" element={<Contact />} />
         <Route path="privacy-policy" element={<Privacy />} />
