@@ -330,6 +330,22 @@ affiliateUrl: "https://www.amazon.com/dp/B0CJ4TPLRM?tag=gearnest11-20",
   affiliateUrl: "https://www.amazon.com/dp/B0B8M9TKGP?tag=gearnest11-20",
   featured: true,
 },
+  {
+  slug: "ugreen-adjustable-phone-stand",
+  name: "UGREEN Adjustable Phone Stand",
+  brand: "UGREEN",
+  category: "accessories",
+  price: 15.99,
+  originalPrice: null,
+  rating: 4.7,
+  reviewCount: 20775,
+  tagline:
+    "Premium aluminum phone stand with adjustable viewing angles, foldable design, and excellent stability for everyday use.",
+  image: "/products/ugreen-adjustable-phone-stand.jpg",
+  badges: ["Best Value"],
+  affiliateUrl: "https://www.amazon.com/dp/B083J4TNLW?tag=gearnest11-20",
+  featured: true,
+},
 ];
 
 export const getProduct = (slug) =>
