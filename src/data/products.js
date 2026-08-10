@@ -346,6 +346,23 @@ affiliateUrl: "https://www.amazon.com/dp/B0CJ4TPLRM?tag=gearnest11-20",
   affiliateUrl: "https://www.amazon.com/dp/B083J4TNLW?tag=gearnest11-20",
   featured: true, 
 },
+  {
+  slug: "anker-maggo-2-in-1-qi2-wireless-charging-stand",
+  name: "Anker MagGo 2-in-1 Qi2 Wireless Charging Stand",
+  brand: "Anker",
+  category: "accessories",
+  price: 45.99,
+  originalPrice: 53.99,
+  rating: 4.4,
+  reviewCount: 2778,
+  tagline:
+    "Qi2-certified 15W wireless charging stand with MagSafe compatibility, fast charging, and a compact 2-in-1 design for iPhone and AirPods.",
+  image: "/products/anker-maggo-2-in-1-qi2-wireless-charging-stand.jpg",
+  badges: ["Editor's Pick"],
+  affiliateUrl:
+    "https://www.amazon.com/dp/B0D2XPHFSL?tag=gearnest11-20",
+  featured: true,
+},
 ];
 
 export const getProduct = (slug) =>
