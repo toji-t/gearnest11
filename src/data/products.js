@@ -344,7 +344,7 @@ affiliateUrl: "https://www.amazon.com/dp/B0CJ4TPLRM?tag=gearnest11-20",
   image: "/products/ugreen-adjustable-phone-stand.jpg",
   badges: ["Best Value"],
   affiliateUrl: "https://www.amazon.com/dp/B083J4TNLW?tag=gearnest11-20",
-  featured: true,
+  featured: true, 
 },
 ];
 
