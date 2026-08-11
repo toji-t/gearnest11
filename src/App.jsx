@@ -9,6 +9,7 @@ import BuyingGuides from "./pages/BuyingGuides";
 import Blog from "./pages/Blog";
 import AISkills2026 from "./pages/AISkills2026";
 import StudentDeskSetup2026 from "./pages/StudentDeskSetup2026";
+import AppleSmartHome2026 from "./pages/AppleSmartHome2026";
 import GuideDetail from "./pages/GuideDetail";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
@@ -33,6 +34,10 @@ export default function App() {
 <Route
   path="blog/student-desk-setup-2026"
   element={<StudentDeskSetup2026 />}
+/>
+        <Route
+  path="blog/apple-smart-home-2026"
+  element={<AppleSmartHome2026 />}
 />
 <Route path="about" element={<About />} />
         
