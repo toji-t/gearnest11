@@ -1,19 +1,124 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://www.gearnest.com/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
-  <url><loc>https://www.gearnest.com/products</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://www.gearnest.com/products/laptops</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.gearnest.com/products/keyboards</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.gearnest.com/products/mice</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.gearnest.com/products/headphones</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.gearnest.com/products/gaming</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.gearnest.com/products/monitors</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.gearnest.com/products/smartphones</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.gearnest.com/products/accessories</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://www.gearnest.com/reviews</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://www.gearnest.com/guides</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://www.gearnest.com/about</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://www.gearnest.com/contact</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://www.gearnest.com/privacy-policy</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
-  <url><loc>https://www.gearnest.com/affiliate-disclosure</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+
+  <url>
+    <loc>https://www.gearnest.com/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://www.gearnest.com/products</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://www.gearnest.com/products/laptops</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.gearnest.com/products/keyboards</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.gearnest.com/products/mice</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.gearnest.com/products/headphones</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.gearnest.com/products/gaming</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.gearnest.com/products/monitors</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.gearnest.com/products/smartphones</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.gearnest.com/products/accessories</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.gearnest.com/reviews</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://www.gearnest.com/guides</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://www.gearnest.com/blog</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://www.gearnest.com/blog/ai-skills-2026</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.gearnest.com/blog/student-desk-setup-2026</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.gearnest.com/blog/apple-smart-home-2026</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.gearnest.com/about</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://www.gearnest.com/contact</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://www.gearnest.com/privacy-policy</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <url>
+    <loc>https://www.gearnest.com/affiliate-disclosure</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
 </urlset>
