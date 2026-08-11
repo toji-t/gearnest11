@@ -1,4 +1,10 @@
-    {/* Apple Smart Home Article */}
+import React from "react";
+
+export default function AppleSmartHome2026() {
+  return (
+    <main className="max-w-4xl mx-auto px-6 py-12">
+
+{/* Apple Smart Home Article */}
       <h1 className="text-4xl font-bold mb-4">
         Apple's Smart Home Revolution Is Coming in 2026: Here's Everything We Know
       </h1>
