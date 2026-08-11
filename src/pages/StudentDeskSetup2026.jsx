@@ -342,7 +342,7 @@ export default function StudentDeskSetup2026() {
       </h2>
 
       <h3 className="text-xl font-semibold mb-2">
-        Do I need expensive accessories to build a productive desk?
+        What are the best desk accessories for college students?
       </h3>
 
       <p className="mb-6">
@@ -352,7 +352,7 @@ export default function StudentDeskSetup2026() {
       </p>
 
       <h3 className="text-xl font-semibold mb-2">
-        Which accessory should I buy first?
+        What should I buy first for a student desk setup?
       </h3>
 
       <p className="mb-6">
