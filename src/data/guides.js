@@ -148,6 +148,7 @@ Q: What is the best charging speed for most people?
 
 For everyday iPhone users, a quality 15W Qi2 charger provides an excellent balance between charging speed, efficiency, and long-term reliability.`,
 },
+      }
 ];
 
 export const getGuide = (slug) => guides.find((g) => g.slug === slug);
