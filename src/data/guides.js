@@ -6,8 +6,13 @@ export const guides = [
     "Looking for the best wireless charger for your iPhone? This complete buying guide explains Qi, Qi2, MagSafe, charging speeds, common mistakes, and how to choose the right charger for your needs.",
   category: "accessories",
   date: "2026-08-03",
-  readTime: "12 min read",
-  sections: [
+readTime: "12 min read",
+
+picks: [
+  "anker-maggo-2-in-1-qi2-wireless-charging-stand"
+],
+
+sections: [
   {
   heading: "Why Most People Buy the Wrong Wireless Charger",
   body: `Buying a wireless charger sounds simple until you start comparing products. Suddenly you're looking at Qi, Qi2, MagSafe, charging speeds, magnetic alignment, charging stands, charging pads, and dozens of chargers that all claim to be the fastest.
