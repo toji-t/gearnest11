@@ -13,7 +13,9 @@ export default function GuideDetail() {
   if (!guide) return <Navigate to="/guides" replace />;
 
   const category = getCategory(guide.category);
-  const picks = guide.picks.map((s) => getProduct(s)).filter(Boolean);
+  const picks = (guide.picks ?? [])
+  .map((s) => getProduct(s))
+  .filter(Boolean);
 
   return (
     <>
