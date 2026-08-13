@@ -1069,7 +1069,7 @@ Not necessarily. Choose a charger based on the devices you own and how you use t
   date: "2026-08-13",
   readTime: "12 min read",
 
-  picks: [],
+  picks: ["anker-maggo-2-in-1-qi2-wireless-charging-stand"],
 
   sections: [
     {
