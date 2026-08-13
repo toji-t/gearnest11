@@ -1255,7 +1255,9 @@ For many people, a magnetic charger or charging stand is the most useful startin
 Q: Are MagSafe accessories worth buying?
 
 They can be, especially if you use a compatible iPhone and value convenient charging, mounting, or carrying options. The key is choosing accessories that solve a problem you actually have.`
-    },
+   },
+  ],
+},
 ];
 
 export const getGuide = (slug) =>
