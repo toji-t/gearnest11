@@ -57,7 +57,23 @@ export default function Blog() {
     Read Article →
   </span>
 </a>
+{/* Why GaN Chargers Article */}
+<a
+  href="/blog/why-gan-chargers-2026"
+  className="block mb-10 p-6 rounded-2xl border border-gray-200 hover:shadow-lg transition"
+>
+  <h2 className="text-2xl font-bold mb-2">
+    Why GaN Chargers Are Replacing Traditional Chargers in 2026
+  </h2>
 
+  <p className="text-gray-500 mb-3">
+    Learn why GaN chargers are becoming the new standard for fast, compact, and efficient charging.
+  </p>
+
+  <span className="text-blue-600 font-semibold">
+    Read Article →
+  </span>
+</a>
     </main>
   );
 }
