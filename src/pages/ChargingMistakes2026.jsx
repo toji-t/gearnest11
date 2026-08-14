@@ -134,11 +134,11 @@ export default function ChargingMistakes2026() {
           </Link>
 
           <Link
-            to="/buying-guides/best-phone-stands-2026"
-            className="block font-semibold text-blue-600 hover:underline"
-          >
-            → Best Phone Stands in 2026
-          </Link>
+  to="/guides/best-wireless-chargers-2026"
+  className="block font-semibold text-blue-600 hover:underline"
+>
+  → Best Wireless Chargers for iPhone in 2026
+</Link>
 
         </div>
 
