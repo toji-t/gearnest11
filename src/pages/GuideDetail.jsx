@@ -9,11 +9,13 @@ import { getCategory } from "../data/categories";
 export default function GuideDetail() {
   const { slug } = useParams();
 
-  const guide = guides.find(
-    (item) =>
-      typeof item?.slug === "string" &&
-      item.slug.trim() === (slug || "").trim()
-  );
+const cleanSlug = (slug || "").replace(/\/+$/, "").trim();
+
+const guide = guides.find(
+  (item) =>
+    typeof item?.slug === "string" &&
+    item.slug.trim() === cleanSlug
+);
 
   if (!guide) {
     return (
