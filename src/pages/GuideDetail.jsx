@@ -10,11 +10,20 @@ export default function GuideDetail() {
 const { slug } = useParams();
 
 const guide = guides.find(
-  (item) => item.slug === slug
+  (item) => item.slug.trim() === slug.trim()
 );
 
 if (!guide) {
-  return <Navigate to="/guides" replace />;
+  return (
+    <div className="max-w-3xl mx-auto px-5 sm:px-8 py-14">
+      <h1 className="text-3xl font-semibold text-navy">
+        Guide not found
+      </h1>
+      <p className="mt-3 text-slate-500">
+        Requested slug: {slug}
+      </p>
+    </div>
+  );
 }
 
   const category = getCategory(guide.category);
