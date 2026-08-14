@@ -379,6 +379,22 @@ affiliateUrl: "https://www.amazon.com/dp/B0CJ4TPLRM?tag=gearnest11-20",
     "https://www.amazon.com/dp/B0B2J37WQJ?tag=gearnest11-20",
   featured: false,
 },
+  {
+  slug: "omoton-c2-adjustable-aluminum-cell-phone-stand",
+  name: "OMOTON C2 Adjustable Aluminum Cell Phone Stand",
+  brand: "OMOTON",
+  category: "accessories",
+  price: 9.99,
+  originalPrice: 14.99,
+  rating: 4.8,
+  tagline:
+    "Sturdy aluminum phone stand with a 3mm base, non-slip silicone pads, and a charging cutout — multi-angle design that works with cases up to 19mm thick.",
+  image: "/products/omoton-c2-adjustable-aluminum-cell-phone-stand.jpg",
+  badges: ["Overall Pick"],
+  affiliateUrl:
+    "https://www.amazon.com/dp/B0744GJQS3?tag=gearnest11-20",
+  featured: false,
+},
 ];
 
 export const getProduct = (slug) =>
