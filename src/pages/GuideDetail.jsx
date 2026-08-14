@@ -26,10 +26,17 @@ if (!guide) {
   );
 }
 
-  const category = getCategory(guide.category);
-  const picks = (guide.picks ?? [])
-  .map((s) => getProduct(s))
-  .filter(Boolean);
+    const category = getCategory(guide.category);
+
+  const picks = Array.isArray(guide.picks)
+    ? guide.picks
+        .map((s) => getProduct(s))
+        .filter(Boolean)
+    : [];
+
+  const sections = Array.isArray(guide.sections)
+    ? guide.sections
+    : [];
 
   return (
     <>
@@ -67,7 +74,7 @@ if (!guide) {
         </p>
 
         <div className="mt-12 space-y-10">
-          {guide.sections.map((s) => (
+          {sections.map((s) => (
             <div key={s.heading}>
               <h2 className="font-display text-xl font-semibold text-navy mb-3">{s.heading}</h2>
               <p className="text-slate-600 leading-relaxed">{s.body}</p>
