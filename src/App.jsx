@@ -29,8 +29,19 @@ export default function App() {
         <Route path="products/:category/:slug" element={<ProductDetail />} />
         <Route path="reviews" element={<Reviews />} />
         <Route path="reviews/:slug" element={<ReviewDetail />} />
-        <Route path="guides" element={<BuyingGuides />} />
-        <Route path="guides/:slug" element={<GuideDetail />} />
+<Route path="guides" element={<BuyingGuides />} />
+
+<Route
+  path="guides/best-wireless-charging-stands-2026"
+  element={<GuideDetail />}
+/>
+
+<Route
+  path="guides/best-phone-stands-2026"
+  element={<GuideDetail />}
+/>
+
+<Route path="guides/:slug" element={<GuideDetail />} />
         <Route path="blog" element={<Blog />} />
 <Route path="blog/ai-skills-2026" element={<AISkills2026 />} />
 <Route
