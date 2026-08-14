@@ -2,15 +2,20 @@ import { useParams, Link, Navigate } from "react-router-dom";
 import SEO from "../components/SEO";
 import Icon from "../components/Icon";
 import ProductCard from "../components/ProductCard";
-import { getGuide } from "../data/guides";
+import { guides } from "../data/guides";
 import { getProduct } from "../data/products";
 import { getCategory } from "../data/categories";
 
 export default function GuideDetail() {
-  const { slug } = useParams();
-  const guide = getGuide(slug);
+const { slug } = useParams();
 
-  if (!guide) return <Navigate to="/guides" replace />;
+const guide = guides.find(
+  (item) => item.slug === slug
+);
+
+if (!guide) {
+  return <Navigate to="/guides" replace />;
+}
 
   const category = getCategory(guide.category);
   const picks = (guide.picks ?? [])
