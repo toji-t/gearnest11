@@ -56,12 +56,9 @@ export default function ChargingMistakes2026() {
 
       <section className="mt-14 space-y-6">
 
-        <div className="flex items-center gap-3">
-          <Thermometer className="text-red-500" />
-          <h2 className="text-3xl font-bold">
-            Mistake #1 — Charging Your Phone While It's Overheating
-          </h2>
-        </div>
+    <h2 className="text-3xl font-bold">
+  Mistake #1 — Charging Your Phone While It's Overheating
+</h2>
 
         <p>
           Heat is one of the biggest enemies of lithium-ion batteries. Charging
@@ -80,12 +77,9 @@ export default function ChargingMistakes2026() {
 
       <section className="mt-14 space-y-6">
 
-        <div className="flex items-center gap-3">
-          <Zap className="text-yellow-500" />
-          <h2 className="text-3xl font-bold">
-            Mistake #2 — Using Cheap, Low-Quality Chargers
-          </h2>
-        </div>
+        <h2 className="text-3xl font-bold">
+  Mistake #2 — Using Cheap, Low-Quality Chargers
+</h2>
 
         <p>
           Not every charger is built to the same standard. Poorly made chargers
@@ -103,12 +97,9 @@ export default function ChargingMistakes2026() {
 
       <section className="mt-14 space-y-6">
 
-        <div className="flex items-center gap-3">
-          <Battery className="text-green-500" />
-          <h2 className="text-3xl font-bold">
-            Mistake #3 — Ignoring Damaged Charging Cables
-          </h2>
-        </div>
+       <h2 className="text-3xl font-bold">
+  Mistake #3 — Ignoring Damaged Charging Cables
+</h2>
 
         <p>
           Frayed cables, loose connectors, and damaged insulation aren't just
@@ -154,12 +145,9 @@ export default function ChargingMistakes2026() {
       </div>
             <section className="mt-14 space-y-6">
 
-        <div className="flex items-center gap-3">
-          <Smartphone className="text-blue-500" />
-          <h2 className="text-3xl font-bold">
-            Mistake #4 — Using Your Phone for Heavy Gaming While Charging
-          </h2>
-        </div>
+        <h2 className="text-3xl font-bold">
+  Mistake #4 — Using Your Phone for Heavy Gaming While Charging
+</h2>
 
         <p>
           Playing demanding games while your phone is charging is one of the
@@ -178,12 +166,9 @@ export default function ChargingMistakes2026() {
 
       <section className="mt-14 space-y-6">
 
-        <div className="flex items-center gap-3">
-          <AlertTriangle className="text-orange-500" />
-          <h2 className="text-3xl font-bold">
-            Mistake #5 — Leaving Your Phone in Direct Sunlight
-          </h2>
-        </div>
+        <h2 className="text-3xl font-bold">
+  Mistake #5 — Leaving Your Phone in Direct Sunlight
+</h2>
 
         <p>
           Whether it's sitting on a car dashboard or beside a sunny window,
