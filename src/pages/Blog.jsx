@@ -74,6 +74,23 @@ export default function Blog() {
     Read Article →
   </span>
 </a>
+      {/* Charging Mistakes Article */}
+<a
+  href="/blog/charging-mistakes-2026"
+  className="block mb-10 p-6 rounded-2xl border border-gray-200 hover:shadow-lg transition"
+>
+  <h2 className="text-2xl font-bold mb-2">
+    7 Charging Mistakes That Can Reduce Your Phone's Battery Life (And How to Avoid Them)
+  </h2>
+
+  <p className="text-gray-500 mb-3">
+    Discover the most common charging mistakes that can affect your phone's battery health and learn simple habits to keep your battery performing better for longer.
+  </p>
+
+  <span className="text-blue-600 font-semibold">
+    Read Article →
+  </span>
+</a>
     </main>
   );
 }
