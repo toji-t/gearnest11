@@ -91,6 +91,23 @@ export default function Blog() {
     Read Article →
   </span>
 </a>
+      {/* Charging Slowly Article */}
+<a
+  href="/blog/charging-slowly-2026"
+  className="block mb-10 p-6 rounded-2xl border border-gray-200 hover:shadow-lg transition"
+>
+  <h2 className="text-2xl font-bold mb-2">
+    Why Your Phone Charges Slowly (Even With a Fast Charger): 9 Common Reasons Explained
+  </h2>
+
+  <p className="text-gray-500 mb-3">
+    Learn the most common reasons smartphones charge slowly and discover simple fixes that can improve charging speed without replacing your phone.
+  </p>
+
+  <span className="text-blue-600 font-semibold">
+    Read Article →
+  </span>
+</a>
     </main>
   );
 }
