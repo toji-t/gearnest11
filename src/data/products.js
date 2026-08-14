@@ -395,6 +395,20 @@ affiliateUrl: "https://www.amazon.com/dp/B0CJ4TPLRM?tag=gearnest11-20",
     "https://www.amazon.com/dp/B0744GJQS3?tag=gearnest11-20",
   featured: false,
 },
+  {
+  slug: "nulaxy-360-rotating-cell-phone-stand",
+  name: "Nulaxy 360° Rotating Cell Phone Stand",
+  brand: "Nulaxy",
+  category: "accessories",
+  price: 11.99,
+  rating: 4.6,
+  tagline:
+    "Fully adjustable, foldable phone stand with a 360° rotating base — thick-case friendly, height and angle adjustable, works with all phones and Nintendo Switch.",
+  image: "/products/nulaxy-360-rotating-cell-phone-stand.jpg",
+  badges: [],
+  affiliateUrl: "https://amzn.to/4fX52L1",
+  featured: false,
+},
 ];
 
 export const getProduct = (slug) =>
