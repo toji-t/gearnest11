@@ -409,6 +409,20 @@ affiliateUrl: "https://www.amazon.com/dp/B0CJ4TPLRM?tag=gearnest11-20",
   affiliateUrl: "https://amzn.to/4fX52L1",
   featured: false,
 },
+  {
+  slug: "apps2car-universal-windshield-car-phone-mount",
+  name: "APPS2Car Universal Windshield Car Phone Mount",
+  brand: "APPS2Car",
+  category: "accessories",
+  price: 14.99,
+  rating: 4.3,
+  tagline:
+    "Universal windshield and dashboard car phone mount compatible with all smartphones — sturdy suction grip for a secure, hands-free ride.",
+  image: "/products/apps2car-universal-windshield-car-phone-mount.jpg",
+  badges: ["Amazon's Choice"],
+  affiliateUrl: "https://amzn.to/3SAy3mG",
+  featured: false,
+},
 ];
 
 export const getProduct = (slug) =>
