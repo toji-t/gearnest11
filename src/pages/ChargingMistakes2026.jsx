@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import { Battery, Zap, AlertTriangle, Thermometer, Smartphone } from "lucide-react";
 
 export default function ChargingMistakes2026() {
   return (
