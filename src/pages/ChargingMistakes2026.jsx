@@ -127,7 +127,7 @@ export default function ChargingMistakes2026() {
             className="block font-semibold text-blue-600 hover:underline"
           >
            
-    → Best Wireless Charging Stands in 2026
+    → Best Wireless Charging Stands in 2026 
           </Link>
         </div>
       </div>
