@@ -363,6 +363,22 @@ affiliateUrl: "https://www.amazon.com/dp/B0CJ4TPLRM?tag=gearnest11-20",
     "https://www.amazon.com/dp/B0D2XPHFSL?tag=gearnest11-20",
   featured: true,
 },
+  {
+  slug: "lamicall-foldable-phone-stand-desk",
+  name: "Lamicall Foldable Phone Stand for Desk",
+  brand: "Lamicall",
+  category: "accessories",
+  price: 9.98,
+  originalPrice: 12.99,
+  rating: 4.8,
+  tagline:
+    "Height-adjustable, foldable desk phone stand with a weighted metal base and anti-slip silicone pads — compact enough to fold flat and take anywhere.",
+  image: "/products/lamicall-foldable-phone-stand-desk.jpg",
+  badges: ["Best Value"],
+  affiliateUrl:
+    "https://www.amazon.com/dp/B0B2J37WQJ?tag=gearnest11-20",
+  featured: false,
+},
 ];
 
 export const getProduct = (slug) =>
