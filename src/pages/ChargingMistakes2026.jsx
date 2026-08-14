@@ -121,14 +121,6 @@ export default function ChargingMistakes2026() {
           >
             → Best Wireless Chargers for iPhone in 2026
           </Link>
-
-          <Link
-            to="/guides/best-phone-stands-2026"
-            className="block font-semibold text-blue-600 hover:underline"
-          >
-           
-    → Best Wireless Charging Stands in 2026 
-          </Link>
         </div>
       </div>
 
@@ -261,3 +253,4 @@ export default function ChargingMistakes2026() {
     </article>
   );
 }
+   
