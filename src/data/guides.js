@@ -1,4 +1,4 @@
-export const guides = [
+export const guides = [ 
   {
     slug: "best-wireless-chargers-2026",
     title: "Best Wireless Chargers for iPhone in 2026",
