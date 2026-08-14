@@ -11,6 +11,7 @@ import AISkills2026 from "./pages/AISkills2026";
 import StudentDeskSetup2026 from "./pages/StudentDeskSetup2026";
 import AppleSmartHome2026 from "./pages/AppleSmartHome2026";
 import WhyGaNChargers2026 from "./pages/WhyGaNChargers2026";
+import ChargingSlowly2026 from "./pages/ChargingSlowly2026";
 import ChargingMistakes2026 from "./pages/ChargingMistakes2026";
 import GuideDetail from "./pages/GuideDetail";
 import About from "./pages/About";
@@ -45,6 +46,10 @@ export default function App() {
         <Route
   path="blog/why-gan-chargers-2026"
   element={<WhyGaNChargers2026 />}
+/>
+        <Route
+  path="blog/charging-slowly-2026"
+  element={<ChargingSlowly2026 />}
 />
         <Route
   path="blog/charging-mistakes-2026"
