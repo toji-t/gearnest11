@@ -2377,6 +2377,6 @@ It can be if the phone is your only device. Higher wattage becomes more useful w
     ],
   },
 ];
-
+ 
 export const getGuide = (slug) =>
   guides.find((g) => g.slug === slug);
