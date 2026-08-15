@@ -2372,8 +2372,7 @@ Q: Is 65W overkill for a phone?
 
 It can be if the phone is your only device. Higher wattage becomes more useful when you want one charger for several devices.`,
      
-        ],
-      },
+       },
     ],
   },
 ];
