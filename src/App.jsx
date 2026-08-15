@@ -13,6 +13,7 @@ import AppleSmartHome2026 from "./pages/AppleSmartHome2026";
 import WhyGaNChargers2026 from "./pages/WhyGaNChargers2026";
 import ChargingSlowly2026 from "./pages/ChargingSlowly2026";
 import ChargingMistakes2026 from "./pages/ChargingMistakes2026";
+import FastChargingRace2026 from "./pages/FastChargingRace2026";
 import GuideDetail from "./pages/GuideDetail";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
@@ -50,6 +51,10 @@ export default function App() {
         <Route
   path="blog/charging-slowly-2026"
   element={<ChargingSlowly2026 />}
+/>
+        <Route
+  path="blog/fast-charging-race-2026"
+  element={<FastChargingRace2026 />}
 />
         <Route
   path="blog/charging-mistakes-2026"
