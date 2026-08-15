@@ -108,6 +108,24 @@ export default function Blog() {
     Read Article →
   </span>
 </a>
+      {/* Fast Charging Race Article */}
+<a
+  href="/blog/fast-charging-race-2026"
+  className="block mb-10 p-6 rounded-2xl border border-gray-200 hover:shadow-lg transition"
+>
+  <h2 className="text-2xl font-bold mb-2">
+    The Fast-Charging Race Is Changing: Why USB-C and PPS Matter More in 2026
+  </h2>
+
+  <p className="text-gray-500 mb-3">
+    Smartphone charging is changing beyond bigger wattage numbers. Here's why
+    USB-C, PD, PPS, and GaN are becoming more important in 2026.
+  </p>
+
+  <span className="text-blue-600 font-semibold">
+    Read Article →
+  </span>
+</a>
     </main>
   );
 }
