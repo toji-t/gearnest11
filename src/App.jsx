@@ -15,7 +15,7 @@ import ChargingSlowly2026 from "./pages/ChargingSlowly2026";
 import ChargingMistakes2026 from "./pages/ChargingMistakes2026";
 import FastChargingRace2026 from "./pages/FastChargingRace2026";
 import FastChargingMyths from "./pages/FastChargingMyths";
-import PhoneStopsCharging80Percent from "./pages/magazine/PhoneStopsCharging80Percent";
+import PhoneStopsCharging80Percent from "./pages/PhoneStopsCharging80Percent";
 import GuideDetail from "./pages/GuideDetail";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
