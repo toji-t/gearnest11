@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
+  <!-- Main Pages -->
   <url>
     <loc>https://gearnest11.gearnest.workers.dev/</loc>
     <changefreq>weekly</changefreq>
@@ -13,6 +14,25 @@
     <priority>0.9</priority>
   </url>
 
+  <url>
+    <loc>https://gearnest11.gearnest.workers.dev/reviews</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://gearnest11.gearnest.workers.dev/guides</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://gearnest11.gearnest.workers.dev/blog</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Product Categories -->
   <url>
     <loc>https://gearnest11.gearnest.workers.dev/products/laptops</loc>
     <changefreq>weekly</changefreq>
@@ -61,42 +81,147 @@
     <priority>0.8</priority>
   </url>
 
+  <!-- Buying Guides -->
   <url>
-    <loc>https://gearnest11.gearnest.workers.dev/reviews</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <loc>https://gearnest11.gearnest.workers.dev/guides/best-wireless-chargers-2026</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://gearnest11.gearnest.workers.dev/guides</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <loc>https://gearnest11.gearnest.workers.dev/guides/best-power-banks-for-iphone-2026</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://gearnest11.gearnest.workers.dev/blog</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <loc>https://gearnest11.gearnest.workers.dev/guides/best-usb-c-chargers-for-iphone-2026</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
 
+  <url>
+    <loc>https://gearnest11.gearnest.workers.dev/guides/best-usb-c-cables-2026</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://gearnest11.gearnest.workers.dev/guides/best-gan-chargers-2026</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://gearnest11.gearnest.workers.dev/guides/best-magsafe-accessories-2026</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://gearnest11.gearnest.workers.dev/guides/best-wireless-earbuds-2026</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://gearnest11.gearnest.workers.dev/guides/best-power-banks-2026</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://gearnest11.gearnest.workers.dev/guides/best-wireless-charging-stands-2026</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://gearnest11.gearnest.workers.dev/guides/best-phone-stands-2026</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://gearnest11.gearnest.workers.dev/guides/best-usb-c-chargers-2026</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://gearnest11.gearnest.workers.dev/guides/how-many-watts-does-your-phone-need-2026</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://gearnest11.gearnest.workers.dev/guides/usb-c-pd-vs-pps-2026</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://gearnest11.gearnest.workers.dev/guides/best-travel-chargers-for-phones-2026</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Magazine Articles -->
   <url>
     <loc>https://gearnest11.gearnest.workers.dev/blog/ai-skills-2026</loc>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://gearnest11.gearnest.workers.dev/blog/student-desk-setup-2026</loc>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
 
   <url>
     <loc>https://gearnest11.gearnest.workers.dev/blog/apple-smart-home-2026</loc>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
 
+  <url>
+    <loc>https://gearnest11.gearnest.workers.dev/blog/why-gan-chargers-2026</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://gearnest11.gearnest.workers.dev/blog/charging-slowly-2026</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://gearnest11.gearnest.workers.dev/blog/fast-charging-race-2026</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://gearnest11.gearnest.workers.dev/blog/charging-mistakes-2026</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://gearnest11.gearnest.workers.dev/blog/fast-charging-myths</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://gearnest11.gearnest.workers.dev/blog/phone-stops-charging-80-percent</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Site Pages -->
   <url>
     <loc>https://gearnest11.gearnest.workers.dev/about</loc>
     <changefreq>monthly</changefreq>
