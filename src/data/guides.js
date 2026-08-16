@@ -2755,7 +2755,7 @@ Only if your device supports PPS or you have another reason to want a PPS-capabl
     readTime: "12 min read",
 
      picks: ["anker-nano-20w-usb-c-charger"],
-],
+
 
     sections: [
       {
