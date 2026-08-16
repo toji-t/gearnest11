@@ -471,6 +471,22 @@ affiliateUrl: "https://www.amazon.com/dp/B0CJ4TPLRM?tag=gearnest11-20",
   affiliateUrl: "https://amzn.to/4fYFu02",
   featured: true,
 },
+  {
+  slug: "kidee-portable-neck-fan",
+  name: "KIDEE Portable Bladeless Neck Fan",
+  brand: "KIDEE",
+  category: "accessories",
+  price: 24.99,
+  originalPrice: 26.99,
+  rating: 4.3,
+  reviewCount: 10604,
+  tagline:
+    "Hands-free bladeless neck fan with 360° airflow, three speeds, quiet operation, and a rechargeable 4000mAh battery for personal cooling on the go.",
+  image: "/products/kidee-portable-neck-fan.jpg",
+  badges: ["Amazon's Choice"],
+  affiliateUrl: "https://amzn.to/46a08nX",
+  featured: true,
+},
 ];
 
 export const getProduct = (slug) =>
