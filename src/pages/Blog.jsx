@@ -144,6 +144,25 @@ export default function Blog() {
     Read Article →
   </span>
 </a>
+            {/* Phone Charging at 80% Article */}
+      <a
+        href="/blog/phone-stops-charging-80-percent"
+        className="block mb-10 p-6 rounded-2xl border border-gray-200 hover:shadow-lg transition"
+      >
+        <h2 className="text-2xl font-bold mb-2">
+          Why Your Phone Stops Charging at 80%, 90%, or 95% — And Whether You Should Worry
+        </h2>
+
+        <p className="text-gray-500 mb-3">
+          Your phone stops charging before 100%? Here's why charging limits,
+          optimized charging, and temperature protection can cause it — and
+          when you should actually be concerned.
+        </p>
+
+        <span className="text-blue-600 font-semibold">
+          Read Article →
+        </span>
+      </a>
     </main>
   );
 }
