@@ -2754,7 +2754,11 @@ Only if your device supports PPS or you have another reason to want a PPS-capabl
     date: "2026-08-16",
     readTime: "12 min read",
 
-    picks: [],
+    picks: [
+  "YOUR-EXISTING-USB-C-CHARGER-SLUG",
+  "YOUR-EXISTING-GAN-CHARGER-SLUG",
+  "YOUR-EXISTING-MULTI-PORT-CHARGER-SLUG",
+],
 
     sections: [
       {
