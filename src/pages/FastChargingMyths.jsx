@@ -37,7 +37,8 @@ export default function FastChargingMyths() {
 
       <section className="space-y-6">
         <h2 className="text-3xl font-bold">
-          Fast Charging Is Better Than It Used to Be — So Why Is It Still So Confusing?
+          Fast Charging Is Better Than It Used to Be — So Why Is It Still So
+          Confusing?
         </h2>
 
         <p>
@@ -55,10 +56,10 @@ export default function FastChargingMyths() {
         </p>
 
         <p>
-          The reality is more nuanced. Your phone manages charging dynamically,
-          slows charging as the battery approaches full capacity, and can
-          temporarily limit charging when temperatures become too high or too
-          low. :contentReference[oaicite:1]{index=1}
+          The reality is more nuanced. Modern phones manage charging
+          dynamically, can slow charging as the battery approaches full
+          capacity, and can limit charging when temperature becomes too high
+          or too low.
         </p>
 
         <p>
@@ -135,10 +136,9 @@ export default function FastChargingMyths() {
 
         <p>
           Modern iPhones are designed to manage charging automatically. Apple
-          states that an iPhone can be charged overnight, and its charging
-          system can pause at around 80% before finishing closer to when you
-          normally unplug the phone when Optimized Battery Charging is active.
-          :contentReference[oaicite:2]{index=2}
+          states that an iPhone can be charged overnight, and charging
+          management features can reduce the amount of time the battery spends
+          fully charged.
         </p>
 
         <p>
@@ -190,11 +190,9 @@ export default function FastChargingMyths() {
         </p>
 
         <p>
-          Apple provides features such as Charge Limit and Optimized Battery
-          Charging specifically to help reduce the amount of time a battery
-          spends fully charged. On supported iPhones, users can select a charge
-          limit below 100%, while Optimized Battery Charging can delay the final
-          part of charging based on learned routines. :contentReference[oaicite:3]{index=3}
+          Supported iPhones offer features such as Charge Limit and Optimized
+          Battery Charging to help reduce the amount of time a battery spends
+          fully charged.
         </p>
 
         <p>
@@ -204,8 +202,8 @@ export default function FastChargingMyths() {
         <p>
           If you need a full battery before leaving home, charging to 100% is a
           perfectly reasonable use of your phone. The important distinction is
-          between using battery-protection features to reduce long-term wear and
-          believing that charging past 80% somehow damages the battery
+          between using battery-protection features to reduce long-term wear
+          and believing that charging past 80% somehow damages the battery
           immediately.
         </p>
 
@@ -239,9 +237,8 @@ export default function FastChargingMyths() {
         </p>
 
         <p>
-          Apple explains that iPhone charging is fast at lower battery levels
-          and becomes slower as the battery approaches around 80%. This helps
-          manage battery stress and heat. :contentReference[oaicite:4]{index=4}
+          Smartphone charging also tends to slow as the battery approaches a
+          high charge level. This helps manage battery stress and heat.
         </p>
 
         <p>
@@ -291,10 +288,8 @@ export default function FastChargingMyths() {
         </p>
 
         <p>
-          Apple says iPhone may slow or temporarily pause charging when the
-          device becomes too hot or too cold. These protections are designed to
-          help preserve battery health and maintain safe operation.
-          :contentReference[oaicite:5]{index=5}
+          An iPhone may slow or temporarily pause charging when the device
+          becomes too hot or too cold.
         </p>
 
         <p>
@@ -305,12 +300,6 @@ export default function FastChargingMyths() {
         <p>
           Charging in direct sunlight, leaving a phone in a hot car, or using
           demanding apps and games while charging can make the device warmer.
-        </p>
-
-        <p>
-          Apple specifically recommends keeping an iPhone within an appropriate
-          temperature range and notes that charging performance can be affected
-          by extreme temperatures. :contentReference[oaicite:6]{index=6}
         </p>
 
         <p>
@@ -331,9 +320,7 @@ export default function FastChargingMyths() {
           measure and easy to advertise.
         </p>
 
-        <p>
-          Battery health is more complicated.
-        </p>
+        <p>Battery health is more complicated.</p>
 
         <p>
           Your phone experiences thousands of small charging and usage
@@ -342,11 +329,10 @@ export default function FastChargingMyths() {
         </p>
 
         <p>
-          Apple describes a charge cycle as the equivalent of using 100% of a
-          battery's capacity, even if that usage happens across multiple
-          charging sessions. Partial charging throughout the day does not
-          automatically count as a full cycle each time you plug the phone in.
-          :contentReference[oaicite:7]{index=7}
+          A battery charge cycle represents the equivalent of using 100% of a
+          battery's capacity, even when that usage happens across multiple
+          charging sessions. Partial charging does not automatically equal a
+          full cycle every time you connect the phone.
         </p>
 
         <p>
@@ -463,9 +449,7 @@ export default function FastChargingMyths() {
           "buy the highest-wattage charger you can find."
         </p>
 
-        <p>
-          The reality sits somewhere in the middle.
-        </p>
+        <p>The reality sits somewhere in the middle.</p>
 
         <p>
           Modern phones contain charging-management systems specifically
@@ -479,9 +463,7 @@ export default function FastChargingMyths() {
       {/* Final thoughts */}
 
       <section className="mt-16 space-y-6">
-        <h2 className="text-4xl font-bold">
-          Final Thoughts
-        </h2>
+        <h2 className="text-4xl font-bold">Final Thoughts</h2>
 
         <p>
           Fast charging has earned a reputation for being complicated, but the
@@ -566,7 +548,7 @@ export default function FastChargingMyths() {
           <p className="mt-2 text-gray-600">
             Fast charging is not automatically harmful. Modern phones manage
             charging dynamically, while excessive heat is an important factor
-            to avoid. :contentReference[oaicite:8]{index=8}
+            to avoid.
           </p>
         </div>
 
@@ -576,9 +558,9 @@ export default function FastChargingMyths() {
           </h3>
 
           <p className="mt-2 text-gray-600">
-            Yes. Apple states that iPhone can be charged overnight and uses
-            charging-management features designed to reduce the time the
-            battery remains fully charged. :contentReference[oaicite:9]{index=9}
+            Yes. iPhone is designed to manage charging during normal overnight
+            use, and battery-management features can help reduce time spent
+            fully charged.
           </p>
         </div>
 
@@ -601,9 +583,8 @@ export default function FastChargingMyths() {
 
           <p className="mt-2 text-gray-600">
             You don't have to treat 80% as a strict rule. Supported iPhones
-            offer Charge Limit and Optimized Battery Charging features that can
-            help reduce time spent fully charged when appropriate.
-            :contentReference[oaicite:10]{index=10}
+            offer battery-management features that can help reduce time spent
+            fully charged when appropriate.
           </p>
         </div>
 
@@ -614,8 +595,7 @@ export default function FastChargingMyths() {
 
           <p className="mt-2 text-gray-600">
             Charging commonly slows as the battery approaches a high charge
-            level. This behavior helps manage battery stress and heat.
-            :contentReference[oaicite:11]{index=11}
+            level. This helps manage battery stress and heat.
           </p>
         </div>
 
@@ -626,8 +606,8 @@ export default function FastChargingMyths() {
 
           <p className="mt-2 text-gray-600">
             Yes. Excessive heat can affect battery longevity, which is why
-            phones can slow or pause charging when temperatures become too
-            extreme. :contentReference[oaicite:12]{index=12}
+            phones may slow or pause charging when temperatures become too
+            extreme.
           </p>
         </div>
       </section>
@@ -635,9 +615,7 @@ export default function FastChargingMyths() {
       {/* Sources */}
 
       <section className="mt-14 border-t border-gray-200 pt-8">
-        <h2 className="text-2xl font-bold mb-4">
-          Sources
-        </h2>
+        <h2 className="text-2xl font-bold mb-4">Sources</h2>
 
         <div className="space-y-2 text-sm text-gray-500">
           <a
