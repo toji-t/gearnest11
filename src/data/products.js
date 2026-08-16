@@ -439,6 +439,22 @@ affiliateUrl: "https://www.amazon.com/dp/B0CJ4TPLRM?tag=gearnest11-20",
     affiliateUrl: "https://amzn.to/4fWynVS",
     featured: true,
   },
+  {
+  slug: "ordilend-electronics-cleaning-kit",
+  name: "Ordilend Keyboard & Laptop Cleaning Kit",
+  brand: "Ordilend",
+  category: "accessories",
+  price: 16.99,
+  originalPrice: null,
+  rating: 4.6,
+  reviewCount: 10594,
+  tagline:
+    "All-in-one electronics cleaning kit with brushes, cleaning cloths, keycap puller, and precision tools for keyboards, laptops, phones, earbuds, cameras, and other devices.",
+  image: "/products/ordilend-electronics-cleaning-kit.jpg",
+  badges: ["Best Seller"],
+  affiliateUrl: "https://amzn.to/45w5vxC",
+  featured: true,
+},
 ];
 
 export const getProduct = (slug) =>
