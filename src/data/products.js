@@ -423,6 +423,22 @@ affiliateUrl: "https://www.amazon.com/dp/B0CJ4TPLRM?tag=gearnest11-20",
   affiliateUrl: "https://amzn.to/3SAy3mG",
   featured: false,
 },
+    {
+    slug: "fyy-electronic-organizer",
+    name: "FYY Electronic Organizer, Travel Tech Pouch",
+    brand: "FYY",
+    category: "accessories",
+    price: 9.99,
+    originalPrice: null,
+    rating: 4.6,
+    reviewCount: 39448,
+    tagline:
+      "Compact double-layer travel organizer for cables, chargers, power banks, earbuds, and other everyday tech accessories.",
+    image: "/products/fyy-electronic-organizer.jpg",
+    badges: ["Best Seller"],
+    affiliateUrl: "https://amzn.to/4fWynVS",
+    featured: true,
+  },
 ];
 
 export const getProduct = (slug) =>
