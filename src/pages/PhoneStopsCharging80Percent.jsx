@@ -1,25 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import {
-  ArrowLeft,
-  ArrowRight,
-  BatteryCharging,
-  Check,
-  ChevronDown,
-  ShieldCheck,
-  Thermometer,
-  Zap,
-} from "lucide-react";
 
 const FAQItem = ({ question, answer }) => (
   <details className="group border-b border-gray-200 py-5">
     <summary className="flex cursor-pointer list-none items-center justify-between gap-5 text-base font-semibold text-gray-900">
       <span>{question}</span>
 
-      <ChevronDown
-        size={19}
-        className="shrink-0 text-gray-400 transition-transform group-open:rotate-180"
-      />
+      <span className="text-xl text-gray-400 transition-transform group-open:rotate-180">
+        ↓
+      </span>
     </summary>
 
     <p className="pt-4 text-sm leading-7 text-gray-600">
@@ -28,15 +17,17 @@ const FAQItem = ({ question, answer }) => (
   </details>
 );
 
-const Callout = ({ icon: Icon, title, children }) => (
+const Callout = ({ label, title, children }) => (
   <div className="my-10 rounded-3xl border border-gray-200 bg-gray-50 p-6 md:p-8">
     <div className="flex items-start gap-4">
-      <div className="rounded-2xl bg-white p-3 shadow-sm">
-        <Icon size={21} className="text-blue-600" />
+      <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-white text-lg shadow-sm">
+        {label}
       </div>
 
       <div>
-        <h3 className="text-lg font-bold text-gray-950">{title}</h3>
+        <h3 className="text-lg font-bold text-gray-950">
+          {title}
+        </h3>
 
         <div className="mt-2 text-sm leading-7 text-gray-600">
           {children}
@@ -53,17 +44,15 @@ export default function PhoneStopsCharging80Percent() {
       <header className="border-b border-gray-100 bg-gradient-to-b from-gray-50 to-white">
         <div className="mx-auto max-w-5xl px-5 pb-16 pt-10 md:px-8 md:pt-16">
           <Link
-            to="/magazine"
+            to="/blog"
             className="inline-flex items-center gap-2 text-sm font-medium text-gray-500 transition hover:text-gray-900"
           >
-            <ArrowLeft size={16} />
-            Back to GearNest Magazine
+            ← Back to GearNest Magazine
           </Link>
 
           <div className="mt-10 max-w-4xl">
             <div className="mb-5 inline-flex items-center gap-2 rounded-full bg-blue-50 px-3 py-1.5 text-xs font-semibold text-blue-700">
-              <BatteryCharging size={14} />
-              Magazine
+              🔋 Magazine
             </div>
 
             <h1 className="text-4xl font-bold tracking-tight text-gray-950 md:text-6xl md:leading-[1.06]">
@@ -76,7 +65,7 @@ export default function PhoneStopsCharging80Percent() {
             <p className="mt-7 max-w-3xl text-lg leading-8 text-gray-600 md:text-xl">
               You plug in your phone expecting it to reach 100%, come back
               later, and find it sitting at 80%, 90%, or 95%. Is something
-              wrong with the battery? Usually, no. Here's what's actually
+              wrong with the battery? Usually, no. Here is what is actually
               happening.
             </p>
 
@@ -93,7 +82,7 @@ export default function PhoneStopsCharging80Percent() {
 
       {/* ARTICLE */}
       <div className="mx-auto max-w-4xl px-5 py-12 md:px-8 md:py-16">
-        {/* HOOK */}
+        {/* INTRO */}
         <section>
           <p className="text-lg leading-8 text-gray-700">
             You connect your phone to the charger before bed. Everything looks
@@ -106,8 +95,8 @@ export default function PhoneStopsCharging80Percent() {
           </p>
 
           <p className="mt-5 text-lg leading-8 text-gray-700">
-            Maybe it stopped at 90%. Maybe 95%. Maybe you even saw a message
-            saying charging had been limited.
+            Maybe it stopped at 90%. Maybe 95%. Maybe your phone even displayed
+            a message explaining that charging had been limited.
           </p>
 
           <p className="mt-6 text-lg leading-8 text-gray-700">
@@ -116,8 +105,8 @@ export default function PhoneStopsCharging80Percent() {
           </p>
 
           <p className="mt-6 text-lg leading-8 text-gray-700">
-            But modern phones can intentionally reduce, pause, or limit
-            charging to help manage battery aging and temperature.
+            But modern smartphones can intentionally reduce, pause, or limit
+            charging as part of their battery-management systems.
           </p>
 
           <p className="mt-6 text-lg leading-8 text-gray-700">
@@ -127,18 +116,18 @@ export default function PhoneStopsCharging80Percent() {
         </section>
 
         {/* QUICK ANSWER */}
-        <Callout icon={ShieldCheck} title="The quick answer">
+        <Callout label="✓" title="The quick answer">
           <p>
-            If your phone regularly stops at around 80%, 90%, or 95% and shows
-            a charging optimization or charge-limit message, it may be an
+            If your phone regularly stops around 80%, 90%, or 95% and shows a
+            charging optimization or charge-limit message, it may be an
             intentional battery-protection feature rather than a fault.
           </p>
 
           <p className="mt-3">
-            However, a phone that suddenly refuses to charge past a certain
-            percentage without showing a relevant setting or message can have
-            another cause, including excessive heat, a software issue, or an
-            accessory problem.
+            If the phone suddenly refuses to charge past a certain percentage
+            without an obvious setting or explanation, however, there may be
+            another cause such as excessive heat, a software problem, or an
+            accessory issue.
           </p>
         </Callout>
 
@@ -149,25 +138,26 @@ export default function PhoneStopsCharging80Percent() {
           </h2>
 
           <p className="mt-6 text-base leading-8 text-gray-700">
-            There isn't one single reason.
+            There is not one single reason.
           </p>
 
           <p className="mt-5 text-base leading-8 text-gray-700">
-            Modern smartphones use software and hardware controls to manage
-            charging. The phone can monitor things such as battery temperature,
-            charging behavior, battery level, and user charging patterns.
+            Modern phones use software and hardware controls to manage
+            charging. Depending on the device, the phone can monitor things
+            such as battery temperature, charging behavior, battery level, and
+            charging patterns.
           </p>
 
           <p className="mt-5 text-base leading-8 text-gray-700">
-            Depending on the device, it may intentionally pause charging around
+            Depending on the model, it may intentionally pause charging around
             80%, apply a user-selected charge limit, or temporarily reduce
             charging when the battery becomes too warm.
           </p>
 
           <p className="mt-5 text-base leading-8 text-gray-700">
-            Apple, for example, offers Charge Limit options on newer iPhones,
-            while Google Pixel phones offer Charging optimization settings
-            that can include an 80% limit or adaptive charging. :contentReference[oaicite:0]{index=0}
+            Apple, for example, provides Charge Limit options on supported
+            iPhones, while Google Pixel phones provide charging optimization
+            features that can include an 80% limit or Adaptive Charging.
           </p>
         </section>
 
@@ -179,26 +169,26 @@ export default function PhoneStopsCharging80Percent() {
 
           <p className="mt-6 text-base leading-8 text-gray-700">
             One of the biggest misunderstandings about phone charging is
-            assuming that the battery should always reach 100%.
+            assuming the battery should always reach 100%.
           </p>
 
           <p className="mt-5 text-base leading-8 text-gray-700">
-            In reality, some manufacturers provide charging limits specifically
-            to reduce battery wear over time.
+            Some manufacturers provide charging limits specifically to help
+            reduce battery wear over time.
           </p>
 
           <p className="mt-5 text-base leading-8 text-gray-700">
-            On supported iPhone models, you can choose a charge limit between
-            80% and 100% in 5% increments. Apple says the feature is intended
-            to help reduce battery wear, especially when a phone is frequently
-            charged or left connected to power for long periods. :contentReference[oaicite:1]{index=1}
+            On supported iPhone models, Apple allows users to select a charge
+            limit between 80% and 100% in five-percent increments. Apple says
+            the feature is designed to help reduce battery wear, especially
+            when the phone is regularly charged for long periods.
           </p>
 
-          <Callout icon={BatteryCharging} title="Think of it as battery management">
+          <Callout label="🔋" title="Think of it as battery management">
             <p>
-              A charge limit isn't necessarily a sign that your battery is
-              failing. It can be an intentional setting designed to reduce how
-              long the battery spends at a very high state of charge.
+              A charge limit is not necessarily a sign that your battery is
+              failing. It can be an intentional setting designed to reduce the
+              amount of time the battery spends at a very high state of charge.
             </p>
           </Callout>
         </section>
@@ -206,35 +196,34 @@ export default function PhoneStopsCharging80Percent() {
         {/* SECTION 3 */}
         <section className="mt-16">
           <h2 className="text-3xl font-bold tracking-tight text-gray-950">
-            Why 80% Can Be Better Than 100% for Everyday Charging
+            Why 80% Can Be Useful for Everyday Charging
           </h2>
 
           <p className="mt-6 text-base leading-8 text-gray-700">
-            Battery aging is complicated. Rechargeable lithium-ion batteries
-            naturally lose capacity over time, and temperature and charging
-            patterns can influence how quickly that happens.
+            Rechargeable lithium-ion batteries naturally age over time.
+            Charging behavior and temperature are among the factors that can
+            influence that aging process.
           </p>
 
           <p className="mt-5 text-base leading-8 text-gray-700">
-            That doesn't mean you should panic every time your phone reaches
+            That does not mean you should panic whenever your phone reaches
             100%.
           </p>
 
           <p className="mt-5 text-base leading-8 text-gray-700">
-            Instead, a charge limit can be useful for people whose normal day
-            doesn't require every last percentage point of battery capacity.
+            A lower charge limit can simply be useful for people whose normal
+            day does not require every last percentage point of battery.
           </p>
 
           <p className="mt-5 text-base leading-8 text-gray-700">
-            Imagine someone who goes to bed with 40% remaining and has regular
-            access to a charger at work. An 80% limit may provide plenty of
-            battery for their normal routine while reducing the amount of time
-            the phone remains at a very high charge level.
+            Imagine someone who wakes up with an 80% charge and has regular
+            access to a charger at work. They may have plenty of battery for
+            their normal routine without needing a full charge every morning.
           </p>
 
           <p className="mt-5 text-base leading-8 text-gray-700">
-            But someone preparing for a long day of travel may reasonably want
-            100%.
+            But someone preparing for a long flight, road trip, or full day
+            away from outlets may reasonably want 100%.
           </p>
 
           <p className="mt-5 text-base leading-8 text-gray-700">
@@ -250,60 +239,64 @@ export default function PhoneStopsCharging80Percent() {
           </h2>
 
           <p className="mt-6 text-base leading-8 text-gray-700">
-            An unusual charging percentage doesn't necessarily mean something
-            is wrong.
+            An unusual charging percentage does not automatically mean
+            something is wrong.
           </p>
 
           <p className="mt-5 text-base leading-8 text-gray-700">
             Some devices allow users to select a specific charging limit. On
-            supported iPhones, for example, a user can select charge limits
-            between 80% and 100% in five-percent increments. The system may
-            therefore stop around the selected percentage instead of continuing
-            to 100%. :contentReference[oaicite:2]{index=2}
+            supported iPhones, for example, users can choose a limit between
+            80% and 100%.
           </p>
 
           <p className="mt-5 text-base leading-8 text-gray-700">
-            A device can also recommend a particular limit based on charging
-            habits. In other words, seeing 95% doesn't automatically mean that
-            5% of your battery has suddenly disappeared.
+            Other phones can use charging optimization features that alter
+            charging behavior based on the device's settings and learned
+            charging patterns.
           </p>
 
           <div className="mt-8 grid gap-4 sm:grid-cols-3">
             <div className="rounded-2xl border border-gray-200 p-5">
-              <p className="text-sm font-semibold text-gray-500">80%</p>
+              <p className="text-sm font-semibold text-gray-500">
+                80%
+              </p>
 
               <h3 className="mt-2 text-lg font-bold text-gray-950">
-                Intentional limit
+                Common charge limit
               </h3>
 
               <p className="mt-2 text-sm leading-6 text-gray-600">
-                Often associated with battery-protection settings on supported
+                Often used as a battery-management setting on supported
                 devices.
               </p>
             </div>
 
             <div className="rounded-2xl border border-gray-200 p-5">
-              <p className="text-sm font-semibold text-gray-500">90%</p>
+              <p className="text-sm font-semibold text-gray-500">
+                90%
+              </p>
 
               <h3 className="mt-2 text-lg font-bold text-gray-950">
-                Selected limit
+                User-selected limit
               </h3>
 
               <p className="mt-2 text-sm leading-6 text-gray-600">
-                Some phones allow users to choose a limit that fits their
-                routine.
+                Some phones let you choose a limit that matches your routine.
               </p>
             </div>
 
             <div className="rounded-2xl border border-gray-200 p-5">
-              <p className="text-sm font-semibold text-gray-500">95%</p>
+              <p className="text-sm font-semibold text-gray-500">
+                95%
+              </p>
 
               <h3 className="mt-2 text-lg font-bold text-gray-950">
-                Battery optimization
+                Optimization behavior
               </h3>
 
               <p className="mt-2 text-sm leading-6 text-gray-600">
-                A phone may recommend or use a limit based on charging habits.
+                Charging behavior can vary depending on the device and its
+                settings.
               </p>
             </div>
           </div>
@@ -328,19 +321,19 @@ export default function PhoneStopsCharging80Percent() {
           <p className="mt-5 text-base leading-8 text-gray-700">
             Apple explains that an iPhone may limit charging above 80% when the
             battery becomes too warm and resume charging after the temperature
-            returns to a safer range. :contentReference[oaicite:3]{index=3}
+            returns to a safer range.
           </p>
 
           <p className="mt-5 text-base leading-8 text-gray-700">
             Google similarly recommends allowing a Pixel phone to cool down if
-            it is overheating while charging. :contentReference[oaicite:4]{index=4}
+            it becomes too hot while charging.
           </p>
 
-          <Callout icon={Thermometer} title="A hot phone needs a cooler environment">
+          <Callout label="🌡️" title="A hot phone needs a cooler environment">
             <p>
-              If your phone is hot while charging, move it away from direct
-              sunlight and other heat sources. Avoid covering it with blankets
-              or placing it somewhere that prevents heat from escaping.
+              If your phone becomes hot while charging, move it away from
+              direct sunlight and other heat sources. Avoid covering it with
+              blankets or placing it somewhere that prevents heat from escaping.
             </p>
           </Callout>
         </section>
@@ -352,25 +345,24 @@ export default function PhoneStopsCharging80Percent() {
           </h2>
 
           <p className="mt-6 text-base leading-8 text-gray-700">
-            Wireless charging is convenient, but charging behavior can differ
-            from wired charging.
+            Wireless charging is convenient, but the charging experience can
+            differ from wired charging.
           </p>
 
           <p className="mt-5 text-base leading-8 text-gray-700">
-            When using a wireless charging system, alignment, the phone case,
-            surrounding temperature, and the charging hardware can all affect
-            the experience.
+            Alignment, phone cases, surrounding temperature, and charging
+            hardware can all affect the experience.
           </p>
 
           <p className="mt-5 text-base leading-8 text-gray-700">
-            This doesn't mean wireless charging is bad for your phone. It means
-            temperature management remains important.
+            This does not mean wireless charging is automatically bad for your
+            battery. It simply means temperature management remains important.
           </p>
 
           <p className="mt-5 text-base leading-8 text-gray-700">
-            If your phone feels unusually hot while charging wirelessly, give
-            it more airflow and check that the phone is properly aligned with
-            the charger.
+            If your phone becomes unusually warm while charging wirelessly,
+            give it more airflow and check that the phone is properly aligned
+            with the charger.
           </p>
         </section>
 
@@ -381,8 +373,8 @@ export default function PhoneStopsCharging80Percent() {
           </h2>
 
           <p className="mt-6 text-base leading-8 text-gray-700">
-            These two ideas can sound similar, but they serve different
-            purposes.
+            These two ideas can sound similar, but they are not exactly the
+            same.
           </p>
 
           <p className="mt-5 text-base leading-8 text-gray-700">
@@ -394,14 +386,6 @@ export default function PhoneStopsCharging80Percent() {
           <p className="mt-5 text-base leading-8 text-gray-700">
             A charge limit, on the other hand, can intentionally keep the
             battery below 100% during normal charging.
-          </p>
-
-          <p className="mt-5 text-base leading-8 text-gray-700">
-            Apple's Optimized Battery Charging is designed to reduce the amount
-            of time an iPhone spends fully charged by delaying charging beyond
-            80% in certain situations. Google Pixel's Adaptive Charging can
-            similarly learn charging habits and complete charging closer to when
-            the phone is expected to be unplugged. :contentReference[oaicite:5]{index=5}
           </p>
 
           <div className="mt-8 overflow-hidden rounded-3xl border border-gray-200">
@@ -422,12 +406,12 @@ export default function PhoneStopsCharging80Percent() {
 
             <div className="grid grid-cols-2 px-5 py-5">
               <span className="font-semibold text-gray-950">
-                Adaptive / Optimized Charging
+                Optimized / Adaptive Charging
               </span>
 
               <span className="text-sm leading-6 text-gray-600">
-                Can delay the final part of charging so the phone spends less
-                time at a full charge.
+                Can delay the final part of charging so the battery spends less
+                time fully charged.
               </span>
             </div>
           </div>
@@ -444,33 +428,31 @@ export default function PhoneStopsCharging80Percent() {
           </p>
 
           <p className="mt-5 text-base leading-8 text-gray-700">
-            If you're preparing for a long trip, a long workday, a day without
-            access to an outlet, or anything else where battery life matters,
-            having as much available energy as possible can be useful.
+            If you're preparing for a long trip, a long workday, or a day
+            without easy access to an outlet, having as much available battery
+            as possible can be useful.
           </p>
 
           <p className="mt-5 text-base leading-8 text-gray-700">
-            A battery limit is a tool, not a rule you have to follow every
+            A charge limit is a tool, not a rule you have to follow every
             single day.
           </p>
 
           <p className="mt-5 text-base leading-8 text-gray-700">
-            Many phones let you temporarily override the normal charging limit
-            when you need a full battery. Apple, for example, provides options
-            to temporarily charge beyond a configured limit on supported
-            iPhones. :contentReference[oaicite:6]{index=6}
+            On some supported devices, you can temporarily override the normal
+            charging limit when you need extra battery capacity.
           </p>
 
           <p className="mt-5 text-base leading-8 text-gray-700">
-            The goal is to make the battery-management feature work for your
-            life rather than making you constantly worry about the percentage.
+            The goal is to make battery-management features work for your life
+            rather than making you constantly worry about the percentage.
           </p>
         </section>
 
         {/* SECTION 9 */}
         <section className="mt-16">
           <h2 className="text-3xl font-bold tracking-tight text-gray-950">
-            What If Your Phone Is Stuck at 80% and You Don't Want It To Be?
+            What If Your Phone Is Stuck at 80%?
           </h2>
 
           <p className="mt-6 text-base leading-8 text-gray-700">
@@ -483,24 +465,22 @@ export default function PhoneStopsCharging80Percent() {
               "Check whether the phone displays a message explaining why charging has paused.",
               "Move the phone somewhere cooler if it feels hot.",
               "Try a known-good charger and cable if you suspect an accessory problem.",
-              "Restart the phone if charging behavior seems unusual.",
-              "Check the manufacturer's support instructions for your exact model.",
+              "Restart the phone if the charging behavior seems unusual.",
+              "Check your manufacturer's support information for your exact model.",
             ].map((item) => (
               <div key={item} className="flex items-start gap-3">
-                <Check
-                  size={18}
-                  className="mt-1 shrink-0 text-green-600"
-                />
+                <span className="mt-2 h-2 w-2 shrink-0 rounded-full bg-green-500" />
 
-                <p className="text-base leading-7 text-gray-700">{item}</p>
+                <p className="text-base leading-7 text-gray-700">
+                  {item}
+                </p>
               </div>
             ))}
           </div>
 
           <p className="mt-7 text-base leading-8 text-gray-700">
-            The menu names can differ by phone manufacturer and software
-            version, so don't worry if your settings don't use exactly the same
-            wording as another person's phone.
+            Menu names can vary by manufacturer and software version, so your
+            phone may use slightly different wording.
           </p>
         </section>
 
@@ -511,12 +491,12 @@ export default function PhoneStopsCharging80Percent() {
           </h2>
 
           <p className="mt-6 text-base leading-8 text-gray-700">
-            Stopping at 80% by itself isn't necessarily a problem.
+            Stopping at 80% by itself is not necessarily a problem.
           </p>
 
           <p className="mt-5 text-base leading-8 text-gray-700">
-            What deserves more attention is unusual charging behavior that
-            doesn't match your settings or the phone's normal operation.
+            What deserves more attention is unusual charging behavior that does
+            not match your settings or your phone's normal operation.
           </p>
 
           <div className="mt-8 rounded-3xl border border-red-100 bg-red-50 p-6 md:p-8">
@@ -526,26 +506,28 @@ export default function PhoneStopsCharging80Percent() {
 
             <div className="mt-5 space-y-4">
               {[
-                "The phone repeatedly stops charging at an unusual percentage without an active limit or optimization setting.",
-                "The device becomes excessively hot during ordinary charging.",
+                "The phone repeatedly stops at an unusual percentage without an active charge limit or optimization feature.",
+                "The device becomes extremely hot during ordinary charging.",
                 "Charging repeatedly starts and stops for no obvious reason.",
                 "The phone or charging port appears physically damaged.",
-                "The battery percentage drops unusually quickly after charging.",
+                "Battery percentage drops unusually quickly after charging.",
                 "Multiple known-good chargers and cables produce the same abnormal behavior.",
               ].map((item) => (
                 <div key={item} className="flex items-start gap-3">
                   <span className="mt-2 h-2 w-2 shrink-0 rounded-full bg-red-500" />
 
-                  <p className="text-sm leading-7 text-gray-700">{item}</p>
+                  <p className="text-sm leading-7 text-gray-700">
+                    {item}
+                  </p>
                 </div>
               ))}
             </div>
           </div>
 
           <p className="mt-6 text-base leading-8 text-gray-700">
-            If the behavior persists and doesn't appear to be caused by a
-            charging optimization or temperature safeguard, consult the
-            manufacturer's support resources or have the device inspected.
+            If the behavior continues and does not appear to be caused by a
+            charging optimization feature or temperature safeguard, check the
+            manufacturer's support guidance or have the device inspected.
           </p>
         </section>
 
@@ -560,23 +542,19 @@ export default function PhoneStopsCharging80Percent() {
           </p>
 
           <p className="mt-5 text-base leading-8 text-gray-700">
-            An 80% charging limit is a charging-management behavior. It isn't a
-            direct health score for the physical battery.
+            An 80% charging limit is a charging-management behavior. It is not
+            a direct health score for the physical battery.
           </p>
 
           <p className="mt-5 text-base leading-8 text-gray-700">
             A phone can have a healthy battery and use an 80% charge limit. A
-            phone can also have an aging battery while charging normally to
-            100%.
+            phone can also have an aging battery while still charging normally
+            to 100%.
           </p>
 
-          <p className="mt-5 text-base leading-8 text-gray-700">
-            Keep those two things separate.
-          </p>
-
-          <Callout icon={BatteryCharging} title="Charging percentage is not battery health">
+          <Callout label="ℹ️" title="Charging percentage is not battery health">
             <p>
-              The number on your battery indicator tells you the current charge
+              The number on the battery indicator tells you the current charge
               level. It does not tell you exactly how healthy the battery is.
             </p>
           </Callout>
@@ -585,33 +563,31 @@ export default function PhoneStopsCharging80Percent() {
         {/* SECTION 12 */}
         <section className="mt-16">
           <h2 className="text-3xl font-bold tracking-tight text-gray-950">
-            Does Leaving Your Phone Plugged In Cause Problems?
+            What About Leaving Your Phone Plugged In?
           </h2>
 
           <p className="mt-6 text-base leading-8 text-gray-700">
             Modern phones have sophisticated charging-management systems, so
-            leaving a phone connected isn't as simple as "the charger keeps
-            forcing power into the battery."
+            leaving a phone connected is not the same thing as continuously
+            forcing power into the battery.
           </p>
 
           <p className="mt-5 text-base leading-8 text-gray-700">
-            However, manufacturers still provide charging optimization features
-            specifically to reduce the amount of time the battery spends fully
-            charged.
+            Manufacturers still provide charging-optimization features to
+            reduce the amount of time the battery spends fully charged.
           </p>
 
           <p className="mt-5 text-base leading-8 text-gray-700">
-            Apple says Optimized Battery Charging is designed to reduce battery
-            wear by reducing the time an iPhone spends fully charged. Google
-            similarly explains that Adaptive Charging can delay reaching 100%
-            until closer to the time the user normally unplugs the phone.
-            :contentReference[oaicite:7]{index=7}
+            Apple says Optimized Battery Charging is designed to reduce the time
+            an iPhone spends fully charged. Google similarly explains that
+            Adaptive Charging can delay reaching 100% until closer to the time
+            the phone is expected to be unplugged.
           </p>
 
           <p className="mt-5 text-base leading-8 text-gray-700">
-            So the useful takeaway isn't "never leave your phone plugged in."
-            It's that your phone's charging-management features exist for a
-            reason, particularly during long charging sessions.
+            The useful takeaway is not "never leave your phone plugged in."
+            Instead, understand that your phone's charging-management features
+            exist to manage long charging sessions.
           </p>
         </section>
 
@@ -627,9 +603,9 @@ export default function PhoneStopsCharging80Percent() {
           </p>
 
           <p className="mt-5 text-base leading-8 text-gray-700">
-            80% isn't automatically bad. 100% isn't automatically bad. And
-            seeing your phone pause during charging doesn't automatically mean
-            you've got a broken battery.
+            80% is not automatically bad. 100% is not automatically bad. And
+            seeing your phone pause during charging does not automatically mean
+            you have a broken battery.
           </p>
 
           <p className="mt-5 text-base leading-8 text-gray-700">
@@ -638,8 +614,8 @@ export default function PhoneStopsCharging80Percent() {
 
           <div className="mt-8 grid gap-4 md:grid-cols-3">
             <div className="rounded-2xl border border-gray-200 p-6">
-              <div className="mb-4 rounded-xl bg-blue-50 p-3 text-blue-600 w-fit">
-                <ShieldCheck size={20} />
+              <div className="mb-4 flex h-11 w-11 items-center justify-center rounded-xl bg-blue-50 text-lg">
+                🛡️
               </div>
 
               <h3 className="font-bold text-gray-950">
@@ -653,8 +629,8 @@ export default function PhoneStopsCharging80Percent() {
             </div>
 
             <div className="rounded-2xl border border-gray-200 p-6">
-              <div className="mb-4 rounded-xl bg-blue-50 p-3 text-blue-600 w-fit">
-                <Thermometer size={20} />
+              <div className="mb-4 flex h-11 w-11 items-center justify-center rounded-xl bg-blue-50 text-lg">
+                🌡️
               </div>
 
               <h3 className="font-bold text-gray-950">
@@ -667,8 +643,8 @@ export default function PhoneStopsCharging80Percent() {
             </div>
 
             <div className="rounded-2xl border border-gray-200 p-6">
-              <div className="mb-4 rounded-xl bg-blue-50 p-3 text-blue-600 w-fit">
-                <Zap size={20} />
+              <div className="mb-4 flex h-11 w-11 items-center justify-center rounded-xl bg-blue-50 text-lg">
+                ⚡
               </div>
 
               <h3 className="font-bold text-gray-950">
@@ -677,7 +653,7 @@ export default function PhoneStopsCharging80Percent() {
 
               <p className="mt-2 text-sm leading-6 text-gray-600">
                 Use a higher charge limit when you genuinely need the extra
-                battery.
+                battery capacity.
               </p>
             </div>
           </div>
@@ -700,21 +676,21 @@ export default function PhoneStopsCharging80Percent() {
 
             <p className="mt-4 text-base leading-8 text-gray-300">
               If your phone has an active charge limit, adaptive charging, or
-              another battery-protection feature, stopping before 100% can be
+              another battery-management feature, stopping before 100% can be
               completely intentional.
             </p>
 
             <p className="mt-4 text-base leading-8 text-gray-300">
               If the phone is unusually hot or charging behaves strangely
-              without an obvious explanation, that's different and worth
+              without an obvious explanation, that is different and worth
               investigating.
             </p>
 
             <p className="mt-4 text-base leading-8 text-gray-300">
               The important thing is not to panic when you see 80%. Modern
               phones are increasingly designed to manage charging intelligently,
-              and sometimes "not charging" is actually the phone protecting the
-              way it charges.
+              and sometimes "not charging" is actually the phone managing how it
+              charges.
             </p>
           </div>
         </section>
@@ -734,22 +710,22 @@ export default function PhoneStopsCharging80Percent() {
           <div className="rounded-3xl border border-gray-200 px-6 md:px-8">
             <FAQItem
               question="Why does my phone stop charging at 80%?"
-              answer="Your phone may have an active charge limit or charging optimization feature. Some phones also temporarily restrict charging when the battery becomes too warm."
+              answer="Your phone may have an active charge limit or charging-optimization feature. Some phones can also temporarily restrict charging when the battery becomes too warm."
             />
 
             <FAQItem
               question="Is it bad if my iPhone only charges to 80%?"
-              answer="Not necessarily. Supported iPhones can use a charge limit or Optimized Battery Charging to reduce battery wear. Check Settings > Battery > Charging to see your current charging option."
+              answer="Not necessarily. Supported iPhones can use a charge limit or Optimized Battery Charging to manage charging behavior. Check your battery and charging settings to see what feature is active."
             />
 
             <FAQItem
               question="Why does my phone stop charging at 90%?"
-              answer="If your phone supports adjustable charge limits, 90% may simply be the selected limit. Check your battery or charging settings before assuming the battery is faulty."
+              answer="If your phone supports adjustable charge limits, 90% may simply be the selected limit. Check your battery settings before assuming the battery is faulty."
             />
 
             <FAQItem
               question="Why does my phone stop at 95%?"
-              answer="A 95% limit can be intentional on supported devices. Some phones can recommend or use a charge limit based on charging habits and battery-protection goals."
+              answer="A 95% limit can be intentional on supported devices. Charging behavior can vary according to the device, software, and settings."
             />
 
             <FAQItem
@@ -759,22 +735,22 @@ export default function PhoneStopsCharging80Percent() {
 
             <FAQItem
               question="Should I always charge my phone to 100%?"
-              answer="No. You should charge to 100% when you need the extra battery capacity, such as before a long day or trip. For everyday routines where you have regular access to power, a lower charge limit may be useful on supported phones."
+              answer="No. Charge to 100% when you need the extra battery capacity, such as before a long day or trip. For everyday routines where you have regular access to power, a lower charge limit may be useful on supported phones."
             />
 
             <FAQItem
-              question="Does charging to 80% make a battery last forever?"
-              answer="No. Lithium-ion batteries naturally age over time. A lower charge limit is a battery-management tool intended to help reduce wear, not a way to stop battery aging entirely."
+              question="Does charging to 80% stop battery aging?"
+              answer="No. Lithium-ion batteries naturally age over time. A lower charge limit is a battery-management tool that can help reduce certain types of battery wear; it does not stop aging completely."
             />
 
             <FAQItem
               question="What should I do if my phone won't charge past 80%?"
-              answer="First check whether a charge limit or charging optimization feature is enabled. Then check the phone's temperature, try a known-good charger and cable, and restart the device. If the behavior continues without an obvious explanation, check the manufacturer's support guidance."
+              answer="First check whether a charge limit or charging-optimization feature is enabled. Then check the phone's temperature, try a known-good charger and cable, and restart the device. If the behavior continues without an obvious explanation, check your manufacturer's support guidance."
             />
 
             <FAQItem
               question="Can I temporarily charge past my phone's limit?"
-              answer="On some supported devices, yes. The exact option depends on the manufacturer and model. For example, supported iPhones provide an option to temporarily charge to a higher level."
+              answer="On some supported devices, yes. The exact option depends on the manufacturer and model. Check your phone's current battery and charging settings."
             />
           </div>
         </section>
@@ -787,17 +763,17 @@ export default function PhoneStopsCharging80Percent() {
             </p>
 
             <h2 className="mt-2 text-3xl font-bold tracking-tight text-gray-950">
-              More GearNest charging guides
+              More GearNest charging articles
             </h2>
           </div>
 
           <div className="grid gap-4 md:grid-cols-2">
             <Link
-              to="/magazine"
+              to="/blog/charging-slowly-2026"
               className="group rounded-2xl border border-gray-200 p-6 transition hover:-translate-y-1 hover:shadow-lg"
             >
               <h3 className="font-bold text-gray-950 group-hover:text-blue-600">
-                Why Your Phone Charges Slowly
+                Why Your Phone Charges Slowly (Even With a Fast Charger)
               </h3>
 
               <p className="mt-2 text-sm leading-6 text-gray-600">
@@ -806,13 +782,12 @@ export default function PhoneStopsCharging80Percent() {
               </p>
 
               <span className="mt-4 inline-flex items-center gap-2 text-sm font-semibold">
-                Read more
-                <ArrowRight size={15} />
+                Read article →
               </span>
             </Link>
 
             <Link
-              to="/magazine"
+              to="/blog/charging-mistakes-2026"
               className="group rounded-2xl border border-gray-200 p-6 transition hover:-translate-y-1 hover:shadow-lg"
             >
               <h3 className="font-bold text-gray-950 group-hover:text-blue-600">
@@ -825,8 +800,7 @@ export default function PhoneStopsCharging80Percent() {
               </p>
 
               <span className="mt-4 inline-flex items-center gap-2 text-sm font-semibold">
-                Read more
-                <ArrowRight size={15} />
+                Read article →
               </span>
             </Link>
           </div>
@@ -842,7 +816,7 @@ export default function PhoneStopsCharging80Percent() {
           <p className="mt-3 text-xs leading-6 text-gray-400">
             This article is for informational purposes. Charging features vary
             by phone model and software version, so check your manufacturer's
-            current support documentation for device-specific instructions.
+            current support documentation for device-specific information.
           </p>
         </footer>
       </div>
