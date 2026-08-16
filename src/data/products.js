@@ -455,6 +455,22 @@ affiliateUrl: "https://www.amazon.com/dp/B0CJ4TPLRM?tag=gearnest11-20",
   affiliateUrl: "https://amzn.to/45w5vxC",
   featured: true,
 },
+  {
+  slug: "eboda-bluetooth-shower-waterproof-speaker",
+  name: "EBODA Bluetooth Shower Waterproof Speaker",
+  brand: "EBODA",
+  category: "headphones",
+  price: 21.99,
+  originalPrice: 26.99,
+  rating: 4.5,
+  reviewCount: 17492,
+  tagline:
+    "Compact IP67 waterproof Bluetooth speaker with LED light, floating design, 2000mAh battery, and True Wireless Stereo support for showers, beaches, hiking, and outdoor use.",
+  image: "/products/eboda-bluetooth-shower-waterproof-speaker.jpg",
+  badges: ["Amazon's Choice"],
+  affiliateUrl: "https://amzn.to/4fYFu02",
+  featured: true,
+},
 ];
 
 export const getProduct = (slug) =>
