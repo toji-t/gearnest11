@@ -163,6 +163,24 @@ export default function Blog() {
           Read Article →
         </span>
       </a>
+      {/* Fast Charging Battery Article */}
+<a
+  href="/blog/does-fast-charging-damage-battery"
+  className="block mb-10 p-6 rounded-2xl border border-gray-200 hover:shadow-lg transition"
+>
+  <h2 className="text-2xl font-bold mb-2">
+    Does Fast Charging Damage Your Phone Battery? What You Should Know in 2026
+  </h2>
+
+  <p className="text-gray-500 mb-3">
+    Does fast charging damage your battery? Learn how heat, charging speed,
+    overnight charging, battery limits, and charging habits affect battery health.
+  </p>
+
+  <span className="text-blue-600 font-semibold">
+    Read Article →
+  </span>
+</a>
     </main>
   );
 }
