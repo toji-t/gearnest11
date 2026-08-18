@@ -3971,7 +3971,10 @@ Not necessarily. Slow charging has many possible causes, and battery condition i
   category: "charging",
   date: "2026-08-18",
   readTime: "11 min read",
-
+picks: [
+  "anker-nano-20w-usb-c-charger",
+  "anker-power-bank-10k-fusion",
+],
   sections: [
     {
       heading: "Why Buying a USB-C Charger Is More Complicated Than It Looks",
