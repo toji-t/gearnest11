@@ -181,6 +181,24 @@ export default function Blog() {
     Read Article →
   </span>
 </a>
+      {/* Phone Battery Drains Fast Article */}
+<a
+  href="/blog/why-phone-battery-drains-fast"
+  className="block mb-10 p-6 rounded-2xl border border-gray-200 hover:shadow-lg transition"
+>
+  <h2 className="text-2xl font-bold mb-2">
+    Why Your Phone Battery Drains So Fast: 10 Common Causes and What to Do
+  </h2>
+
+  <p className="text-gray-500 mb-3">
+    Find out what's draining your phone battery, from screen brightness and
+    background apps to weak signal, heat, 5G, and battery aging.
+  </p>
+
+  <span className="text-blue-600 font-semibold">
+    Read Article →
+  </span>
+</a>
     </main>
   );
 }
