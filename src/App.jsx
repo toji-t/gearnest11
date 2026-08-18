@@ -67,14 +67,11 @@ export default function App() {
   path="blog/fast-charging-myths"
   element={<FastChargingMyths />}
 /> 
-        <Route
-  path="blog/phone-stops-charging-80-percent"
-  element={<PhoneStopsCharging80Percent />}
-/>
-        <Route
-  path="/magazine/does-fast-charging-damage-battery"
+      <Route
+  path="/blog/does-fast-charging-damage-battery"
   element={<DoesFastChargingDamageBattery />}
 />
+      
  
 <Route path="about" element={<About />} /> 
         
