@@ -16,6 +16,7 @@ import ChargingMistakes2026 from "./pages/ChargingMistakes2026";
 import FastChargingRace2026 from "./pages/FastChargingRace2026";
 import FastChargingMyths from "./pages/FastChargingMyths";
 import PhoneStopsCharging80Percent from "./pages/PhoneStopsCharging80Percent";
+import DoesFastChargingDamageBattery from "./pages/DoesFastChargingDamageBattery";
 import GuideDetail from "./pages/GuideDetail";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
@@ -69,6 +70,10 @@ export default function App() {
         <Route
   path="blog/phone-stops-charging-80-percent"
   element={<PhoneStopsCharging80Percent />}
+/>
+        <Route
+  path="/magazine/does-fast-charging-damage-battery"
+  element={<DoesFastChargingDamageBattery />}
 />
  
 <Route path="about" element={<About />} /> 
