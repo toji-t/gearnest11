@@ -17,6 +17,7 @@ import FastChargingRace2026 from "./pages/FastChargingRace2026";
 import FastChargingMyths from "./pages/FastChargingMyths";
 import PhoneStopsCharging80Percent from "./pages/PhoneStopsCharging80Percent";
 import DoesFastChargingDamageBattery from "./pages/DoesFastChargingDamageBattery";
+import WhyPhoneBatteryDrainsFast from "./pages/WhyPhoneBatteryDrainsFast";
 import GuideDetail from "./pages/GuideDetail";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
@@ -70,6 +71,10 @@ export default function App() {
       <Route
   path="/blog/does-fast-charging-damage-battery"
   element={<DoesFastChargingDamageBattery />}
+/>
+        <Route
+  path="/blog/why-phone-battery-drains-fast"
+  element={<WhyPhoneBatteryDrainsFast />}
 />
       
  
