@@ -245,7 +245,7 @@ affiliateUrl: "https://www.amazon.com/dp/B0GX78S7QQ?tag=gearnest11-20",
   tagline: "Pocket-sized 4K creator camera with a 1-inch CMOS sensor, 3-axis gimbal stabilization, ActiveTrack 6.0, and DJI Mic 2 for professional vlogging",
   image: "/products/dji-osmo-pocket-3.jpg",
   badges: ["Editor's Pick"],
- affiliateUrl: "https://www.amazon.com/dp/B0G4SWDH8P?tag=gearnest11-20",
+ affiliateUrl: "https://www.amazon.com/dp/B0CG19FGQ5?tag=gearnest11-20",
   featured: true,
 },
 
