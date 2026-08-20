@@ -199,6 +199,24 @@ export default function Blog() {
     Read Article →
   </span>
 </a>
+            {/* Over-Ear vs On-Ear Headphones Article */}
+      <a
+        href="/blog/over-ear-vs-on-ear-headphones"
+        className="block mb-10 p-6 rounded-2xl border border-gray-200 hover:shadow-lg transition"
+      >
+        <h2 className="text-2xl font-bold mb-2">
+          Over-Ear vs On-Ear Headphones: Which Should You Buy?
+        </h2>
+
+        <p className="text-gray-500 mb-3">
+          Learn the key differences between over-ear and on-ear headphones,
+          including comfort, sound, isolation, portability, and everyday use.
+        </p>
+
+        <span className="text-blue-600 font-semibold">
+          Read Article →
+        </span>
+      </a>
     </main>
   );
 }
