@@ -5103,7 +5103,7 @@ Q: Should I buy one charger for all my devices?
 If your devices support compatible USB-C charging, one multi-port charger can be a convenient solution. But make sure it has enough total power and the right port configuration for everything you plan to charge at the same time.`
    }
  ]
-}
+},
   {
   slug: "best-open-ear-earbuds-2026",
   title: "Best Open-Ear Earbuds in 2026: How to Choose the Right Pair",
@@ -5538,5 +5538,5 @@ They are particularly suitable for people who want comfort, environmental awaren
 },
 ];
 
-export const getGuide = (slug) =>
+export const getGuide = (slug) => 
   guides.find((g) => g.slug === slug);
