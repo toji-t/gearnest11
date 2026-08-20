@@ -5101,10 +5101,10 @@ Start with your device's charging requirements. For a phone-only setup, a compac
 Q: Should I buy one charger for all my devices?
 
 If your devices support compatible USB-C charging, one multi-port charger can be a convenient solution. But make sure it has enough total power and the right port configuration for everything you plan to charge at the same time.`
-     ]
-    }
-  ]
+   }
+ ]
 }
+];
 
 export const getGuide = (slug) =>
   guides.find((g) => g.slug === slug);
