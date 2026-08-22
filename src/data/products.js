@@ -519,6 +519,22 @@ affiliateUrl: "https://www.amazon.com/dp/B0CJ4TPLRM?tag=gearnest11-20",
   affiliateUrl: "https://amzn.to/4gfat8k",
   featured: true,
 },
+  {
+  slug: "aula-f75-wireless-mechanical-keyboard",
+  name: "AULA F75 75% Wireless Mechanical Keyboard",
+  brand: "AULA",
+  category: "keyboards",
+  price: 65.99,
+  originalPrice: 78.89,
+  rating: 4.6,
+  reviewCount: 2445,
+  tagline:
+    "75% wireless mechanical keyboard with hot-swappable switches, pre-lubed Reaper switches, RGB backlighting, and 2.4GHz, Bluetooth 5.0, and USB-C connectivity.",
+  image: "/products/aula-f75-wireless-mechanical-keyboard.jpg",
+  badges: ["Overall Pick", "Trending"],
+  affiliateUrl: "https://amzn.to/45LCHkS",
+  featured: true,
+},
  ];
 
 export const getProduct = (slug) =>
