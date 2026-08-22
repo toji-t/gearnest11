@@ -487,6 +487,22 @@ affiliateUrl: "https://www.amazon.com/dp/B0CJ4TPLRM?tag=gearnest11-20",
   affiliateUrl: "https://amzn.to/46a08nX",
   featured: true,
 },
+  {
+  slug: "bolabutty-bluetooth-speaker",
+  name: "BolaButty Bluetooth Speaker 20W",
+  brand: "BolaButty",
+  category: "accessories",
+  price: 23.98,
+  originalPrice: 29.99,
+  rating: 4.5,
+  reviewCount: 38319,
+  tagline:
+    "Portable 20W Bluetooth speaker with HD sound, IPX5 water resistance, up to 24 hours of playtime, and TWS pairing for home, parties, camping, and the beach.",
+  image: "/products/bolabutty-bluetooth-speaker.jpg",
+  badges: ["Amazon's Choice", "Best Value"],
+  affiliateUrl: "https://amzn.to/4gHKjuV",
+  featured: true,
+},
  ];
 
 export const getProduct = (slug) =>
