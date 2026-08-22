@@ -217,6 +217,24 @@ export default function Blog() {
           Read Article →
         </span>
       </a>
+      {/* OLED vs Mini-LED Article */}
+<a
+  href="/blog/oled-vs-mini-led"
+  className="block mb-10 p-6 rounded-2xl border border-gray-200 hover:shadow-lg transition"
+>
+  <h2 className="text-2xl font-bold mb-2">
+    OLED vs Mini-LED: Which Display Technology Is Right for You?
+  </h2>
+
+  <p className="text-gray-500 mb-3">
+    Compare OLED and Mini-LED displays, including brightness, contrast,
+    HDR, gaming, movies, productivity, burn-in, and more.
+  </p>
+
+  <span className="text-blue-600 font-semibold">
+    Read Article →
+  </span>
+</a>
     </main>
   );
 }
