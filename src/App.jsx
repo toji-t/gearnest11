@@ -19,6 +19,7 @@ import PhoneStopsCharging80Percent from "./pages/PhoneStopsCharging80Percent";
 import DoesFastChargingDamageBattery from "./pages/DoesFastChargingDamageBattery";
 import WhyPhoneBatteryDrainsFast from "./pages/WhyPhoneBatteryDrainsFast";
 import OverEarVsOnEarHeadphones from "./pages/OverEarVsOnEarHeadphones";
+import OLEDvsMiniLED from "./pages/OLEDvsMiniLED";
 import GuideDetail from "./pages/GuideDetail";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
@@ -80,6 +81,10 @@ export default function App() {
         <Route
   path="blog/over-ear-vs-on-ear-headphones"
   element={<OverEarVsOnEarHeadphones />}
+/>
+        <Route
+  path="blog/oled-vs-mini-led"
+  element={<OLEDvsMiniLED />}
 />
       
  
