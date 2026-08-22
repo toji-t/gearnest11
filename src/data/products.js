@@ -503,6 +503,22 @@ affiliateUrl: "https://www.amazon.com/dp/B0CJ4TPLRM?tag=gearnest11-20",
   affiliateUrl: "https://amzn.to/4gHKjuV",
   featured: true,
 },
+  {
+  slug: "nulaxy-ergonomic-adjustable-laptop-stand",
+  name: "Nulaxy Ergonomic Adjustable Laptop Stand",
+  brand: "Nulaxy",
+  category: "accessories",
+  price: 17.99,
+  originalPrice: 19.99,
+  rating: 4.7,
+  reviewCount: 16773,
+  tagline:
+    "Adjustable and foldable laptop stand with heat ventilation, a sturdy design, and portable construction for 10–16 inch laptops.",
+  image: "/products/nulaxy-ergonomic-laptop-stand.jpg",
+  badges: ["Overall Pick", "Best Value"],
+  affiliateUrl: "https://amzn.to/4gfat8k",
+  featured: true,
+},
  ];
 
 export const getProduct = (slug) =>
