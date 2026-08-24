@@ -235,6 +235,25 @@ export default function Blog() {
     Read Article →
   </span>
 </a>
+            {/* Meta Ray-Ban Gen 2 AI Glasses Article */}
+      <a
+        href="/blog/meta-ray-ban-gen-2-ai-glasses"
+        className="block mb-10 p-6 rounded-2xl border border-gray-200 hover:shadow-lg transition"
+      >
+        <h2 className="text-2xl font-bold mb-2">
+          Meta Ray-Ban Gen 2 AI Glasses: What Can They Actually Do?
+        </h2>
+
+        <p className="text-gray-500 mb-3">
+          Explore the latest Meta Ray-Ban smart glasses, from built-in Meta AI
+          and hands-free cameras to open-ear audio, live translation, and
+          everyday smart features.
+        </p>
+
+        <span className="text-blue-600 font-semibold">
+          Read Article →
+        </span>
+      </a>
     </main>
   );
 }
