@@ -19,6 +19,7 @@ import PhoneStopsCharging80Percent from "./pages/PhoneStopsCharging80Percent";
 import DoesFastChargingDamageBattery from "./pages/DoesFastChargingDamageBattery";
 import WhyPhoneBatteryDrainsFast from "./pages/WhyPhoneBatteryDrainsFast";
 import OverEarVsOnEarHeadphones from "./pages/OverEarVsOnEarHeadphones";
+import MetaRayBanGen2AI from "./pages/MetaRayBanGen2AI";
 import OLEDvsMiniLED from "./pages/OLEDvsMiniLED";
 import GuideDetail from "./pages/GuideDetail";
 import About from "./pages/About";
@@ -85,6 +86,10 @@ export default function App() {
         <Route
   path="blog/oled-vs-mini-led"
   element={<OLEDvsMiniLED />}
+/>
+        <Route
+  path="blog/meta-ray-ban-gen-2-ai-glasses"
+  element={<MetaRayBanGen2AI />}
 />
       
  
