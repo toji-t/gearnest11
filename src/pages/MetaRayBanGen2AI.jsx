@@ -275,7 +275,7 @@ export default function AIGlasses2026() {
         </p>
 
         <a
-          href="/products/meta-ray-ban-gen-2-wayfarer"
+          href="/products/accessories/meta-ray-ban-gen-2-wayfarer"
           className="inline-block text-blue-600 font-semibold hover:underline"
         >
           View Product on GearNest →
