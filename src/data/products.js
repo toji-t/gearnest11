@@ -3,6 +3,22 @@
 // placeholder — wire up real Amazon Associates tracking IDs before launch.
 
 export const products = [
+  {
+  slug: "supfine-magnetic-iphone-13-14-case",
+  name: "SUPFINE Magnetic for iPhone 13 Case / iPhone 14 Case",
+  brand: "SUPFINE",
+  category: "accessories",
+  price: 9.99,
+  originalPrice: null,
+  rating: 4.5,
+  reviewCount: 78622,
+  tagline:
+    "Magnetic iPhone 13 and iPhone 14 case with a translucent matte finish, MagSafe compatibility, screen protector, and military-grade drop protection.",
+  image: "/products/supfine-iphone-13-14-case.jpg",
+  badges: ["Best Seller", "10K+ Bought"],
+  affiliateUrl: "https://amzn.to/4qvCxYk",
+  featured: true,
+},
   { 
     slug: "airpods-4",
     name: "Apple AirPods 4", 
