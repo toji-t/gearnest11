@@ -4,6 +4,22 @@
 
 export const products = [
   {
+  slug: "blavor-solar-power-bank-10000mah-2-pack",
+  name: "BLAVOR Solar Charger Power Bank 10,000mAh 2-Pack",
+  brand: "BLAVOR",
+  category: "accessories",
+  price: 35.98,
+  originalPrice: null,
+  rating: 4.4,
+  reviewCount: 21,
+  tagline:
+    "2-pack 10,000mAh portable power banks with 20W fast charging, wireless charging, USB-C, dual USB ports, flashlights, and a compass for travel and outdoor use.",
+  image: "/products/blavor-solar-power-bank-10000mah-2-pack.jpg",
+  badges: ["Overall Pick"],
+  affiliateUrl: "https://amzn.to/4xrfYqk",
+  featured: true,
+},
+  {
   slug: "hatalkin-airtag-holder-4-pack",
   name: "HATALKIN AirTag Holder Keychain 4-Pack",
   brand: "HATALKIN",
