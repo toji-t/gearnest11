@@ -4,6 +4,22 @@
 
 export const products = [
   {
+  slug: "hatalkin-airtag-holder-4-pack",
+  name: "HATALKIN AirTag Holder Keychain 4-Pack",
+  brand: "HATALKIN",
+  category: "accessories",
+  price: 6.58,
+  originalPrice: null,
+  rating: 4.7,
+  reviewCount: 26122,
+  tagline:
+    "4-pack AirTag holder keychains with soft waterproof silicone protection, metal carabiners, and compatibility with AirTag 1st and 2nd Generation.",
+  image: "/products/hatalkin-airtag-holder-4-pack.jpg",
+  badges: ["Amazon's Choice", "10K+ Bought"],
+  affiliateUrl: "https://amzn.to/4wSz7QS",
+  featured: true,
+},
+  {
   slug: "supfine-magnetic-iphone-13-14-case",
   name: "SUPFINE Magnetic for iPhone 13 Case / iPhone 14 Case",
   brand: "SUPFINE",
