@@ -4,6 +4,22 @@
 
 export const products = [
   {
+  slug: "magic-john-iphone-17-screen-protector-2-pack",
+  name: "MAGIC JOHN for iPhone 17 Screen Protector 2-Pack",
+  brand: "MAGIC JOHN",
+  category: "accessories",
+  price: 17.99,
+  originalPrice: 19.99,
+  rating: 4.1,
+  reviewCount: 4173,
+  tagline:
+    "2-pack tempered glass screen protectors for iPhone 17 with automatic dust-elimination installation, bubble-free application, 9H hardness, HD clarity, and an anti-fingerprint coating.",
+  image: "/products/magic-john-iphone-17-screen-protector.jpg",
+  badges: ["Amazon's Choice", "4K+ Bought"],
+  affiliateUrl: "https://amzn.to/4hUKmEP",
+  featured: true,
+},
+  {
   slug: "blavor-solar-power-bank-10000mah-2-pack",
   name: "BLAVOR Solar Charger Power Bank 10,000mAh 2-Pack",
   brand: "BLAVOR",
