@@ -4,6 +4,22 @@
 
 export const products = [
   {
+  slug: "astroai-l7-portable-tire-inflator",
+  name: "AstroAI L7 Portable Tire Inflator",
+  brand: "AstroAI",
+  category: "car-accessories",
+  price: 21.98,
+  originalPrice: 39.99,
+  rating: 4.4,
+  reviewCount: 17528,
+  tagline:
+    "Cordless 150 PSI portable tire inflator with auto shut-off, digital pressure gauge, USB-C charging, and LED light for cars, bikes, motorcycles, and balls.",
+  image: "/products/astroai-l7-portable-tire-inflator.jpg",
+  badges: ["Overall Pick", "30K+ Bought"],
+  affiliateUrl: "https://amzn.to/4gtF9ml",
+  featured: true,
+},
+  {
   slug: "ergear-single-monitor-arm-13-34",
   name: "ErGear Single Monitor Arm for 13–34 Inch Screens",
   brand: "ErGear",
