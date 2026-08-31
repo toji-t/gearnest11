@@ -4,6 +4,22 @@
 
 export const products = [
   {
+  slug: "ergear-single-monitor-arm-13-34",
+  name: "ErGear Single Monitor Arm for 13–34 Inch Screens",
+  brand: "ErGear",
+  category: "computer-accessories",
+  price: 31.99,
+  originalPrice: null,
+  rating: 4.4,
+  reviewCount: 8761,
+  tagline:
+    "Fully adjustable single monitor arm for 13–34 inch screens with tool-free VESA mounting, cable management, and up to 19.8 lbs of support.",
+  image: "/products/ergear-single-monitor-arm-13-34.jpg",
+  badges: ["Overall Pick"],
+  affiliateUrl: "https://amzn.to/4gDdT3w",
+  featured: true,
+},
+  {
   slug: "roku-streaming-stick-hd-2025",
   name: "Roku Streaming Stick HD with Voice Remote",
   brand: "Roku",
