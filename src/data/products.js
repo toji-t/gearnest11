@@ -4,6 +4,22 @@
 
 export const products = [
   {
+  slug: "roku-streaming-stick-hd-2025",
+  name: "Roku Streaming Stick HD with Voice Remote",
+  brand: "Roku",
+  category: "streaming",
+  price: 29.99,
+  originalPrice: 39.99,
+  rating: 4.6,
+  reviewCount: 23624,
+  tagline:
+    "Compact HD streaming stick with a voice remote, long-range Wi-Fi, AirPlay and HomeKit support, and access to popular streaming services and free live entertainment.",
+  image: "/products/roku-streaming-stick-hd-2025.jpg",
+  badges: ["Overall Pick", "10K+ Bought"],
+  affiliateUrl: "https://amzn.to/3UrplIa",
+  featured: true,
+},
+  {
   slug: "magic-john-iphone-17-screen-protector-2-pack",
   name: "MAGIC JOHN for iPhone 17 Screen Protector 2-Pack",
   brand: "MAGIC JOHN",
