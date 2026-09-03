@@ -9,7 +9,7 @@ export default function AreSmartGlassesActuallyUseful() {
         </h1>
 
         <p className="text-gray-500 mb-8">
-          Published: August 2026
+          Published: september 2026
         </p>
 
         <p className="text-lg leading-8 mb-6">
