@@ -265,6 +265,24 @@ export default function Blog() {
           Read Article →
         </span>
       </a>
+      <a
+  href="/blog/are-smart-glasses-actually-useful"
+  className="block mb-10 p-6 rounded-2xl border border-gray-200 hover:shadow-lg transition"
+>
+  <h2 className="text-2xl font-bold mb-2">
+    Are Smart Glasses Actually Useful? What They Can—and Can't—Do
+  </h2>
+
+  <p className="text-gray-500 mb-3">
+    Smart glasses are becoming more capable, but are they actually useful in
+    everyday life? Here's what they can do, where they fall short, and who
+    should consider buying them.
+  </p>
+
+  <span className="text-blue-600 font-semibold">
+    Read Article →
+  </span>
+</a>
 
     </main>
   );
