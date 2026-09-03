@@ -21,6 +21,7 @@ import WhyPhoneBatteryDrainsFast from "./pages/WhyPhoneBatteryDrainsFast";
 import OverEarVsOnEarHeadphones from "./pages/OverEarVsOnEarHeadphones";
 import MetaRayBanGen2AI from "./pages/MetaRayBanGen2AI";
 import OLEDvsMiniLED from "./pages/OLEDvsMiniLED";
+import AreSmartGlassesActuallyUseful from "./pages/AreSmartGlassesActuallyUseful";
 import GuideDetail from "./pages/GuideDetail";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
@@ -90,6 +91,10 @@ export default function App() {
         <Route
   path="blog/meta-ray-ban-gen-2-ai-glasses"
   element={<MetaRayBanGen2AI />}
+/>
+        <Route
+  path="/blog/are-smart-glasses-actually-useful"
+  element={<AreSmartGlassesActuallyUseful />}
 />
       
  
