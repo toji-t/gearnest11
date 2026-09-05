@@ -7806,6 +7806,6 @@ Start with the problem you're trying to solve. Choose the ECOVACS for automated 
     },
   ],
 },
-
+];
 export const getGuide = (slug) => 
   guides.find((g) => g.slug === slug);
