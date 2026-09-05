@@ -7613,7 +7613,7 @@ A: They can make it easier to position the monitor at a comfortable height and v
     }
   ]
 },
-  {
+ {
   slug: "best-useful-tech-products-for-home-work-2026",
   title: "Best Useful Tech Products for Home, Work & Everyday Life in 2026",
   excerpt:
@@ -7803,10 +7803,9 @@ The Mini Mic Pro is the lowest-priced product among the three picks, while the H
 Q: How should I choose between these products?
 
 Start with the problem you're trying to solve. Choose the ECOVACS for automated cleaning, the Mini Mic Pro for smartphone content creation, or the HP 67XL for compatible HP printing needs.`,
-  },
+    },
   ],
 },
-];
 
 export const getGuide = (slug) => 
   guides.find((g) => g.slug === slug);
