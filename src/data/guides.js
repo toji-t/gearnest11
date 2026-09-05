@@ -7803,7 +7803,6 @@ The Mini Mic Pro is the lowest-priced product among the three picks, while the H
 Q: How should I choose between these products?
 
 Start with the problem you're trying to solve. Choose the ECOVACS for automated cleaning, the Mini Mic Pro for smartphone content creation, or the HP 67XL for compatible HP printing needs.`,
-    },
   ],
 },
 ];
