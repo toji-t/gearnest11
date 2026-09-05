@@ -4,6 +4,22 @@
 
 export const products = [
   {
+  slug: "hp-67xl-black-high-yield-ink-cartridge",
+  name: "HP 67XL Black High-Yield Ink Cartridge",
+  brand: "HP",
+  category: "accessories",
+  price: 35.89,
+  originalPrice: null,
+  rating: 4.7,
+  reviewCount: 54460,
+  tagline:
+    "Genuine HP 67XL Black High-Yield Ink Cartridge with approximately 240-page yield, designed for compatible HP DeskJet and ENVY printers.",
+  image: "/products/hp-67xl-black-high-yield-ink-cartridge.jpg",
+  badges: ["Amazon's Choice"],
+  affiliateUrl: "https://amzn.to/4zVSTOn",
+  featured: true,
+},
+  {
   slug: "mini-mic-pro-wireless-microphone",
   name: "Mini Mic Pro Wireless Mini Microphone",
   brand: "Mini Mic Pro",
