@@ -4,6 +4,22 @@
 
 export const products = [
   {
+  slug: "ecovacs-deebot-t90-pro-omni",
+  name: "ECOVACS DEEBOT T90 PRO Omni Robot Vacuum and Mop",
+  brand: "ECOVACS",
+  category: "accessories",
+  price: 598.99,
+  originalPrice: 799.99,
+  rating: 4.1,
+  reviewCount: 712,
+  tagline:
+    "Advanced robot vacuum and mop with 30,000Pa suction, OZMO Roller 3.0 self-cleaning mopping, TruEdge 3.0 edge cleaning, ZeroTangle 4.0, and PowerBoost charging.",
+  image: "/products/ecovacs-deebot-t90-pro-omni.jpg",
+  badges: ["Overall Pick", "1K+ Bought"],
+  affiliateUrl: "https://amzn.to/3Vfhz4j",
+  featured: true,
+},
+  {
   slug: "astroai-l7-portable-tire-inflator",
   name: "AstroAI L7 Portable Tire Inflator",
   brand: "AstroAI",
