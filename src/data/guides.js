@@ -7612,7 +7612,7 @@ Q: Do monitor arms improve ergonomics?
 A: They can make it easier to position the monitor at a comfortable height and viewing angle. However, the arm itself does not guarantee an ergonomic setup; proper screen position and overall desk posture still matter.`
     }
   ]
-}
+},
   {
   slug: "best-useful-tech-products-for-home-work-2026",
   title: "Best Useful Tech Products for Home, Work & Everyday Life in 2026",
