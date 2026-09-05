@@ -4,6 +4,22 @@
 
 export const products = [
   {
+  slug: "mini-mic-pro-wireless-microphone",
+  name: "Mini Mic Pro Wireless Mini Microphone",
+  brand: "Mini Mic Pro",
+  category: "accessories",
+  price: 19.99,
+  originalPrice: 29.99,
+  rating: 4.3,
+  reviewCount: 9315,
+  tagline:
+    "Wireless mini microphone for iPhone and Android with clear voice capture, noise reduction, plug-and-play USB-C and Lightning connectivity, and up to 6 hours of battery life.",
+  image: "/products/mini-mic-pro-wireless-microphone.jpg",
+  badges: ["Overall Pick", "20K+ Bought"],
+  affiliateUrl: "https://amzn.to/46Dw6cC",
+  featured: true,
+},
+  {
   slug: "ecovacs-deebot-t90-pro-omni",
   name: "ECOVACS DEEBOT T90 PRO Omni Robot Vacuum and Mop",
   brand: "ECOVACS",
