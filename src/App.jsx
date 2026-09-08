@@ -21,6 +21,7 @@ import WhyPhoneBatteryDrainsFast from "./pages/WhyPhoneBatteryDrainsFast";
 import OverEarVsOnEarHeadphones from "./pages/OverEarVsOnEarHeadphones";
 import MetaRayBanGen2AI from "./pages/MetaRayBanGen2AI";
 import OLEDvsMiniLED from "./pages/OLEDvsMiniLED";
+import SmartHomeTrends2026 from "./pages/SmartHomeTrends2026";
 import AreSmartGlassesActuallyUseful from "./pages/AreSmartGlassesActuallyUseful";
 import GuideDetail from "./pages/GuideDetail";
 import About from "./pages/About";
