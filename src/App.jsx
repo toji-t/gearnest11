@@ -97,6 +97,10 @@ export default function App() {
   path="/blog/are-smart-glasses-actually-useful"
   element={<AreSmartGlassesActuallyUseful />}
 />
+        <Route
+  path="blog/smart-home-trends-2026"
+  element={<SmartHomeTrends2026 />}
+/>
       
  
 <Route path="about" element={<About />} /> 
