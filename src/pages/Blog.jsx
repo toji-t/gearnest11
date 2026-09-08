@@ -283,6 +283,25 @@ export default function Blog() {
     Read Article →
   </span>
 </a>
+            {/* Smart Home Trends Article */}
+      <a
+        href="/blog/smart-home-trends-2026"
+        className="block mb-10 p-6 rounded-2xl border border-gray-200 hover:shadow-lg transition"
+      >
+        <h2 className="text-2xl font-bold mb-2">
+          Smart Home Trends in 2026: The Technology That’s Actually Worth Using
+        </h2>
+
+        <p className="text-gray-500 mb-3">
+          Discover the smart home technology shaping 2026, from AI and Matter
+          compatibility to robot vacuums, smart security, automation, and the
+          devices that are actually worth using.
+        </p>
+
+        <span className="text-blue-600 font-semibold">
+          Read Article →
+        </span>
+      </a>
 
     </main>
   );
