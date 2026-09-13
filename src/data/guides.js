@@ -8859,7 +8859,7 @@ Prioritize stability, a good viewing position, phone and case compatibility, eas
         <!-- IMAGE 1: Hero -->
         <figure class="my-8">
           <img
-            src="/images/macbook-stand-hero.jpg"
+            src="/products/macbook-stand-hero.jpg"
             alt="MacBook Air on an ergonomic laptop stand on a modern desk"
             class="w-full rounded-2xl"
           />
@@ -8909,7 +8909,7 @@ Prioritize stability, a good viewing position, phone and case compatibility, eas
         <!-- IMAGE 2: Fixed vs Adjustable -->
         <figure class="my-8">
           <img
-            src="/images/macbook-stand-fixed-vs-adjustable.jpg"
+            src="/products/macbook-stand-fixed-vs-adjustable.jpg"
             alt="Comparison of fixed and adjustable MacBook stands"
             class="w-full rounded-2xl"
           />
@@ -8973,7 +8973,7 @@ Prioritize stability, a good viewing position, phone and case compatibility, eas
         <!-- IMAGE 3: Ergonomic Height -->
         <figure class="my-8">
           <img
-            src="/images/macbook-stand-ergonomics.jpg"
+            src="/products/macbook-stand-ergonomics.jpg"
             alt="MacBook positioned at a comfortable ergonomic height on a desk"
             class="w-full rounded-2xl"
           />
